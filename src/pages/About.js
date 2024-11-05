@@ -92,8 +92,9 @@ const About = () => {
                 />
                 <h4
                   className={`absolute inset-0 flex items-center justify-center hover:font-bold hover:underline cursor-pointer ${
-                    teamMembers[activeMember].initials === member.initials && "font-bold"
+                    activeMember === member.id && "font-bold"
                   }`}
+                  onClick={() => switchPerson(member.id)}
                 >
                   {member.initials}
                 </h4>
