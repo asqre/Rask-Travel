@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../layout/Layout";
+import { caseStudies } from "../data";
 
 const CorporateTravel = () => {
+  const [selectedCase, setSelectedCase] = useState(caseStudies[0]);
+
+  const selectCase = (caseIndex) => {
+    setSelectedCase(caseStudies[caseIndex]);
+  };
+
   return (
     <Layout>
       <div className="flex flex-col items-center gap-[100px] my-[50px] w-full px-[30px]">
@@ -34,7 +41,36 @@ const CorporateTravel = () => {
         </h4>
 
         <h2>Our Work</h2>
-        
+
+        <div className="flex flex-row justify-between gap-[50px]">
+          <div className="flex flex-col gap-[15px] max-w-[120px] text-left">
+            {caseStudies.map((cases, index) => (
+              <h3
+                className={`text-start cursor-pointer opacity-[0.5] transition-[0.5s] hover:opacity-[1] ${
+                  selectedCase.id === cases.id && "opacity-[1]"
+                }`}
+                onClick={() => selectCase(index)}
+              >
+                {cases.title}
+              </h3>
+            ))}
+          </div>
+
+          <div className="flex flex-col md:flex-row gap-[15px]">
+            <img
+              id="case-image"
+              className="w-[400px] h-[480px]"
+              alt={selectedCase.title}
+              src={selectedCase.image}
+            />
+
+            <div className="flex flex-col gap-[20px] max-w-[340px]">
+              <h3 className="uppercase">{selectedCase.location}</h3>
+              <div className="text-[28px]">{selectedCase.title}</div>
+              <h3 dangerouslySetInnerHTML={{ __html: selectedCase.details }} />
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );

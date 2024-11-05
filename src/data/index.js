@@ -279,7 +279,7 @@ export const caseStudies = [
     details:
       "<div><strong>Who</strong><br>b:hip Global, an international company helping people be the best versions of themselves, within a global community.<br><br><strong>What</strong><br>RASK organized a unique incentive trip for b:hip Global, coordinating travel for over 150 of their members to the stunning Conrad Maldives. Services included personalized itineraries, on-the-ground logistics, and exclusive experiences designed to reward high-performing individuals within the company.</div>",
     image:
-      "https://rasktravel.com/data/assets/26a472dcd2bb4e6d9f8837b20ab3c3e4.jpg",
+      "https://rasktravel.com/data/assets/9f7325483c75891a78f5647bff455abb.jpg",
   },
   {
     id: "4",
