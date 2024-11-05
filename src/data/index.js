@@ -120,8 +120,77 @@ export const partnersData = [
 ];
 
 export const teamMembers = [
-  { id: 1, initials: "J.R.E." },
-  { id: 2, initials: "C.A." },
-  { id: 3, initials: "K.K." },
-  { id: 4, initials: "N.K." },
+  {
+    id: 1,
+    initials: "J.R.E.",
+    photo:
+      "https://rasktravel.com/data/assets/b261dbf58e8d1a87e5f9b9720521c4fc.jpg",
+    name: "Jonas Rask Eilersen",
+    jobTitle: "Founding Director",
+    bornIn: "Fredericia, Denmark",
+    languages: "Danish, German, French, English",
+    raskal: "2015",
+    destination: "Tokyo, Portland (OR), Kazakhstan",
+    experiences: "Desert camping in the Libyan desert",
+    bucketList:
+      "Ethiopia, Crossing Russia on the Trans-Siberian, Ride the Seven Stars train in Kyushu",
+    drink: "Whiskey Sour",
+    travel: "Noise cancelling headphones",
+    mailto: "mailto:jonas@rasktravel.com?cc=miriam@rasktravel.com",
+  },
+  {
+    id: 2,
+    initials: "C.A.",
+    photo:
+      "https://rasktravel.com/data/assets/612be501ff3cef233097cdd0be4c3653.jpg",
+    name: "Charlie Adam",
+    jobTitle: "Senior Travel Designer",
+    bornIn: "Senior Travel Designer",
+    languages: "English, Dhivehi, Mandarin & Spanish (conversational)",
+    raskal: "2021",
+    destination: "Sri Lanka, Sardinia, Philippines",
+    experiences: "Sleeping al fresco in the Goan jungle, Platzkart train in Russia, Cormorant fishing in Guilin",
+    bucketList:
+      "Georgia, Minicoy Island, Costa Rica",
+    drink: "Bloody Mary",
+    travel: "Ending up wanting to live there",
+    mailto: "mailto:jonas@rasktravel.com?cc=miriam@rasktravel.com",
+  },
+  {
+    id: 3,
+    initials: "K.K.",
+    photo:
+      "https://rasktravel.com/data/assets/a8c3878d41c3cb5f8844f7049ec39264.jpg",
+    name: "Klaudia Kolodziejek",
+    jobTitle: "Travel Designer",
+    bornIn: "Sosnowiec, Poland",
+    languages: "Polish, English",
+    raskal: "2024",
+    destination: "Paris and Tenerife",
+    experiences: "AMAZE audio visual experience in Amsterdam and boat trip to Gozo and Comino in Malta.",
+    bucketList:
+      "Helicopter night ride around New York; Skydiving in Dubai and feeding lemurs in Madagascar",
+    drink: "Espresso Martini",
+    travel: "Noise cancelling headphones",
+    mailto: "mailto:klaudia@rasktravel.com",
+  },
+  {
+    id: 4,
+    initials: "N.K.",
+    photo:
+      "https://rasktravel.com/data/assets/bdd938de40e7fdfe2081d792d961b5ff.jpg",
+    name: "Naor Kanfi",
+    jobTitle: "Financial Administrator",
+    bornIn: "Rehovot, Israel",
+    languages: "Hebrew, English",
+    raskal: "2012",
+    destination: "Arizona and California",
+    experiences: "My one-month Honeymoon across east and central Australia",
+    bucketList:
+      "Swimming in Loch Ness; Jeep trip in western Australia with the animal herds; Visit Japan",
+    drink: "Blue Lagoon",
+    travel: "Snacks",
+    mailto:
+      "mailto:naor@rasktravel.com?cc=miriam@rasktravel.com;%20jonas@rasktravel.com",
+  },
 ];
