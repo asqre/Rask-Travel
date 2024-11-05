@@ -1,10 +1,11 @@
 import React from "react";
 import Layout from "../layout/Layout";
+import Gallery from "../components/Gallery";
 
 const LeisureTravel = () => {
   return (
     <Layout>
-      <div className="flex flex-col justify-center items-center gap-[100px] my-[50px] w-full">
+      <div className="flex flex-col items-center gap-[100px] my-[50px] w-full">
         <h4 className="max-w-[640px]">
           Embark on that road-trip you always dreamed of. Stay at the iconic
           hotel you read about in a magazine long ago. Show your kids an
@@ -26,10 +27,14 @@ const LeisureTravel = () => {
           <br />
           <br />
           <br />
-          <h3 className="italic font-bold underline text-center">
-            Feeling inspired? Drop us a line.
-          </h3>
+          <a href="mailto:info@rasktravel.com">
+            <h3 className="italic font-bold underline text-center">
+              Feeling inspired? Drop us a line.
+            </h3>
+          </a>
         </h4>
+
+        <Gallery />
       </div>
     </Layout>
   );
