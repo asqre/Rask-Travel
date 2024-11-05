@@ -10,11 +10,13 @@ const GiftOfTravel = () => {
         }}
       >
         <div
-          className="absolute top-[5px] left-[4px] w-full h-full "
+          className="absolute top-[5px] left-[4px] w-full h-full"
           style={{
             border: "1px solid #eee",
+            pointerEvents: "none",
           }}
         />
+
         <div className="px-[80px] py-[50px] flex flex-col gap-5">
           <h2
             style={{
@@ -29,7 +31,7 @@ const GiftOfTravel = () => {
             <h3>
               Give your friends and family a small gift that will go a long way,
               or as far as they want to go. Not sure about the next birthday,
-              anniversary or Christmas present? Leave it to us. In just a few
+              anniversary, or Christmas present? Leave it to us. In just a few
               quick steps, a tailor-made gift box can be on its way to an
               address of your choice. Choose any amount over GBP 200 for the
               recipient to spend as they please with RASK, or surprise them with
