@@ -10,6 +10,10 @@ const About = () => {
     setActiveMember(id);
   };
 
+  const activeMemberData = teamMembers.find(
+    (member) => member.id === activeMember
+  );
+
   return (
     <Layout>
       <div className="flex flex-col gap-[100px] my-[50px]">
@@ -101,9 +105,9 @@ const About = () => {
                 </h4>
               </div>
             ))}
-
           </div>
-            <TeamMember />
+
+          {activeMemberData && <TeamMember member={activeMemberData} />}
         </div>
       </div>
     </Layout>
