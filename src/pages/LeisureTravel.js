@@ -5,7 +5,7 @@ import Gallery from "../components/Gallery";
 const LeisureTravel = () => {
   return (
     <Layout>
-      <div className="flex flex-col items-center gap-[100px] my-[50px] w-full">
+      <div className="flex flex-col items-center gap-[100px] my-[50px] w-full px-[30px]">
         <h4 className="max-w-[640px]">
           Embark on that road-trip you always dreamed of. Stay at the iconic
           hotel you read about in a magazine long ago. Show your kids an
