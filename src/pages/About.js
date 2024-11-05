@@ -87,7 +87,7 @@ const About = () => {
           <div className="flex flex-wrap items-center justify-center gap-10">
             {teamMembers.map((member, index) => (
               <div
-                className="relative w-[76px] h-[80px] sm:w-[106px] sm:h-[100px]"
+                className="relative w-[56px] h-[60px] sm:w-[106px] sm:h-[100px]"
                 key={index}
               >
                 <img
@@ -96,7 +96,7 @@ const About = () => {
                   className="w-full h-full absolute"
                 />
                 <h4
-                  className={`absolute inset-0 flex items-center justify-center hover:font-bold hover:underline cursor-pointer ${
+                  className={`absolute inset-0 flex items-center justify-center hover:font-bold hover:underline cursor-pointer text-[12px] sm:text-[17px] ${
                     activeMember === member.id && "font-bold"
                   }`}
                   onClick={() => switchPerson(member.id)}
