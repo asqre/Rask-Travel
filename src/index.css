@@ -27,10 +27,15 @@ body {
 
 @layer base {
   h1 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.4;
     font-weight: lighter;
     font-family: "Lora", "Arial", sans-serif;
+
+    @screen lg {
+      font-size: 24px !important;
+      line-height: 1.4 !important;
+    }
 
     @screen lg {
       font-size: 30px !important;

@@ -3,26 +3,26 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const TeamMember = (props) => {
   return (
-    <div className="flex flex-col md:flex-row justify-between">
+    <div className="flex flex-col lg:flex-row justify-between lg:px-[30px]">
       <img
         src="https://rasktravel.com/data/assets/b261dbf58e8d1a87e5f9b9720521c4fc.jpg"
-        className="h-full w-[340px]"
+        className="h-full w-full lg:w-[340px]"
         alt="team members"
       />
 
-      <div className="flex flex-col flex-grow gap-[60px] md:ml-[80px]">
-        <div className="flex flex-row justify-between">
+      <div className="flex flex-col flex-grow gap-[60px] lg:ml-[80px] mx-[15px]">
+        <div className="flex flex-row justify-between mt-[30px]">
           <div className="flex flex-col">
             <h1>Jonas Rask Eilersen</h1>
             <h3>Founding Director</h3>
           </div>
-          <div className="flex flex-row items-center justify-center gap-4">
+          <div className="flex flex-row items-center justify-center gap-2">
             <h3 className="font-semibold">Contact Jonas</h3>
             <FaArrowRightLong color="var(--color-primary)" />
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between">
+        <div className="flex flex-col lg:flex-row justify-between gap-[20px]">
           <div className="flex flex-col gap-[20px] max-w-[300px]">
             <div>
               <h2>Born in</h2>
