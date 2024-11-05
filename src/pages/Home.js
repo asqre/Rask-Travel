@@ -6,6 +6,7 @@ import { loveData } from "../data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import GiftOfTravel from "../components/GiftOfTravel";
 
 const Home = () => {
   var settings = {
@@ -80,6 +81,10 @@ const Home = () => {
             ))}
           </Slider>
         </div>
+      </div>
+
+      <div className="gift-of-travel px-[15px]">
+        <GiftOfTravel />
       </div>
     </Layout>
   );
