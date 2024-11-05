@@ -67,3 +67,54 @@ export const testimonialData = [
     feedback: `RASK is quite simply the best travel agency I know of; smart, inspiring, modern and thorough. Impeccable attention to detail. There are not many people like them out there; the RASK team deserves a standing ovation.`,
   },
 ];
+
+export const partnersData = [
+  {
+    img: "https://rasktravel.com/data/assets/partners_belmond_bellini.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_aman.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_cheval_blanc.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_desigh_hotels.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_dorchester_diamond_club.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_four_seasons.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_hyatt_prive.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_lhw_vita.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/02a259d214fff84adf707edb3ec165cd.png",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_peninsula_penclub.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_raffles.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_rosewood_elite.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_six_senses.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/partners_slh.jpg",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/98d7a4d05fe1dbcbb47539fe53c116b9.png",
+  },
+  {
+    img: "https://rasktravel.com/data/assets/98c0419f3637b6c5b99e09b2a0421bd1.png",
+  },
+];

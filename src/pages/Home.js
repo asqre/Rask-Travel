@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../layout/Layout";
 import { Link } from "react-router-dom";
 import LoveComponent from "../components/LoveComponent";
-import { loveData, testimonialData } from "../data";
+import { loveData, partnersData, testimonialData } from "../data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -118,6 +118,23 @@ const Home = () => {
               <Testimonial {...item} key={ind} />
             ))}
           </Slider>
+        </div>
+      </div>
+
+      <div className="home-partner px-[15px] my-[100px]">
+        <h2
+          style={{
+            textAlign: "center",
+            fontWeight: "500",
+          }}
+        >
+          Our Partners
+        </h2>
+
+        <div className="flex flex-wrap gap-4 justify-center pt-[50px]">
+          {partnersData.map((partner, index) => (
+            <img src={partner.img} alt="partner logo" key={index} width="100" />
+          ))}
         </div>
       </div>
     </Layout>
