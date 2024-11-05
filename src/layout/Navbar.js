@@ -84,7 +84,7 @@ const Navbar = () => {
           <ul className="flex flex-col items-center justify-evenly lg:hidden bg-white w-full p-4 absolute top-0 left-0 z-50 gap-5">
             <button
               onClick={hideMobileMenu}
-              className="mb-4 self-start pt-[30px]"
+              className="mb-4 self-start pl-[10px] pt-[30px]"
             >
               <RxCross1 size={40} color="var(--color-gray)" />
             </button>
