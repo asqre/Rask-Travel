@@ -2,11 +2,12 @@ import React from "react";
 import Layout from "../layout/Layout";
 import { Link } from "react-router-dom";
 import LoveComponent from "../components/LoveComponent";
-import { loveData } from "../data";
+import { loveData, testimonialData } from "../data";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import GiftOfTravel from "../components/GiftOfTravel";
+import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   var settings = {
@@ -38,6 +39,20 @@ const Home = () => {
         },
       },
     ],
+  };
+
+  var settings2 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    adaptiveHeight: false,
+    initialSlide: 0,
   };
 
   return (
@@ -85,6 +100,25 @@ const Home = () => {
 
       <div className="gift-of-travel px-[15px]">
         <GiftOfTravel />
+      </div>
+
+      <div className="home-our-client px-[15px]">
+        <h2
+          style={{
+            textAlign: "center",
+            fontWeight: "500",
+          }}
+        >
+          Our Client Say
+        </h2>
+
+        <div className="w-full m-auto mb-[100px]">
+          <Slider {...settings2}>
+            {testimonialData.map((item, ind) => (
+              <Testimonial {...item} key={ind} />
+            ))}
+          </Slider>
+        </div>
       </div>
     </Layout>
   );

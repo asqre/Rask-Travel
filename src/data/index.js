@@ -52,3 +52,18 @@ export const loveData = [
     description: `Continuing the team travels, Miriam has just returned from an extensive road trip around Europe, during which she stopped by at the <strong>One&amp;Only Portonovi in Montenegro.</strong>&nbsp; The rooms are spacious and have spectacular views over <strong>Boka Bay </strong>and the <strong>mountains</strong>. A really distinctive room feature is that the bathtub turns into a day bed overlooking these<strong> tranquil views</strong>.&nbsp; The property has stunning outdoor areas and a picture-perfect selection of pools.&nbsp; A huge highlight of this hotel is the <strong>Chenot Espace Spa</strong> that combines Chinese medicine and Western technology.&nbsp; Enjoy Contemporary Japanese Fusion at <strong>Tapasake</strong> and be sure to order the <strong>tuna ceviche</strong> and <strong>black cod miso!</strong>&nbsp; Get in touch with RASK to book your Balkan retreat now with access to special rates and benefits.`,
   },
 ];
+
+export const testimonialData = [
+  {
+    profession: `Eva Kruse, Ex-CEO of Global Fashion Agenda and Copenhagen Fashion Week`,
+    feedback: `You have done an incredible job as our travel partner. No matter the time of day and complexity of task, you came back with a solution straight away and solved any challenges we might have had. Our VIPs were beyond satisfied with the high level of service you provided.`,
+  },
+  {
+    profession: `Uffe Buchard, Creative Director at Grenaabuchard & Editor in Chief of DANSK Magazine`,
+    feedback: `You guys are simply incredible!!! I must say… the RASK team is world-class… We would travel with you to the end of the world.`,
+  },
+  {
+    profession: `Malene Birger, Founder and Creative Director of BIRGER1962`,
+    feedback: `RASK is quite simply the best travel agency I know of; smart, inspiring, modern and thorough. Impeccable attention to detail. There are not many people like them out there; the RASK team deserves a standing ovation.`,
+  },
+];

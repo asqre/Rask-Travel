@@ -59,4 +59,14 @@ body {
     text-align: center;
     font-family: "Lora", "Arial", sans-serif;
   }
+
+  h5 {
+    user-select: none;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    font-weight: lighter;
+    text-align: center;
+    font-family: "Lora", "Arial", sans-serif;
+  }
 }
