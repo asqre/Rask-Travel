@@ -3,8 +3,42 @@ import Layout from "../layout/Layout";
 import { Link } from "react-router-dom";
 import LoveComponent from "../components/LoveComponent";
 import { loveData } from "../data";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Home = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    adaptiveHeight: false,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <Layout>
       <div className="home-hero-container px-[15px] mt-[100px]">
@@ -39,10 +73,12 @@ const Home = () => {
           THIS MONTH WE LOVE...
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-[50px]">
-          {loveData.map((item, ind) => (
-            <LoveComponent {...item} key={ind} />
-          ))}
+        <div className="w-full m-auto mb-[100px]">
+          <Slider {...settings}>
+            {loveData.map((item, ind) => (
+              <LoveComponent {...item} key={ind} />
+            ))}
+          </Slider>
         </div>
       </div>
     </Layout>

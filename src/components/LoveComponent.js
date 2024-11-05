@@ -2,7 +2,7 @@ import React from "react";
 
 const LoveComponent = (props) => {
   return (
-    <div className="max-w-[328px] mx-[10px] flex flex-col gap-[30px]">
+    <div className="mx-[10px] flex flex-col gap-[30px] pt-[50px]">
       <img
         src={props.img}
         alt={props.title}
