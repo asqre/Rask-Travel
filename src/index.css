@@ -74,4 +74,11 @@ body {
     text-align: center;
     font-family: "Lora", "Arial", sans-serif;
   }
+
+  h6 {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Lora", "Arial", sans-serif;
+  }
+
 }
