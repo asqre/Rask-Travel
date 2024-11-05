@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { CiMenuBurger } from "react-icons/ci";
+import { CiMenuFries } from "react-icons/ci";
+import { RxCross1 } from "react-icons/rx";
 import Logo from "../components/Logo";
 import { Link, useLocation } from "react-router-dom";
 import { navItems } from "../data";
@@ -38,8 +39,11 @@ const Navbar = () => {
         id="mobile-menu-burger-container"
         className="flex items-center p-4 lg:hidden"
       >
-        <div className="menu-burger cursor-pointer" onClick={showMobileMenu}>
-          <CiMenuBurger />
+        <div
+          className="menu-burger cursor-pointer pl-[10px]"
+          onClick={showMobileMenu}
+        >
+          <CiMenuFries color="var(--color-primary)" size={40} />
         </div>
         <div className="w-full flex justify-center">
           <Logo />
@@ -66,7 +70,7 @@ const Navbar = () => {
                     textTransform: "uppercase",
                     letterSpacing: "2.5px",
                     paddingBottom: "2px",
-                    textUnderlineOffset: "4px",
+                    textUnderlineOffset: "8px",
                   }}
                 >
                   {item.name}
@@ -77,21 +81,31 @@ const Navbar = () => {
         </ul>
 
         {isMobileMenuOpen && (
-          <ul className="flex flex-col items-center justify-evenly lg:hidden bg-white w-full p-4 absolute top-0 left-0 z-50">
-            <button onClick={hideMobileMenu} className="mb-4 self-end">
-              Close
+          <ul className="flex flex-col items-center justify-evenly lg:hidden bg-white w-full p-4 absolute top-0 left-0 z-50 gap-5">
+            <button
+              onClick={hideMobileMenu}
+              className="mb-4 self-start pt-[30px]"
+            >
+              <RxCross1 size={40} color="var(--color-gray)" />
             </button>
             {navItems.map((item, index) => (
               <li key={index}>
                 <Link
                   to={item.path}
-                  className="text-gray-700 hover:text-black font-medium py-2 transition-all duration-300 ease-in-out"
                   onClick={() => {
                     setSelectedNavItem(item);
                     hideMobileMenu();
                   }}
                 >
-                  {item.name}
+                  <h2
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "bolder",
+                      letterSpacing: "2.5",
+                    }}
+                  >
+                    {item.name}
+                  </h2>
                 </Link>
               </li>
             ))}
