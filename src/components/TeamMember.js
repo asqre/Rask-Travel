@@ -16,10 +16,13 @@ const TeamMember = (props) => {
             <h1>Jonas Rask Eilersen</h1>
             <h3>Founding Director</h3>
           </div>
-          <div className="flex flex-row items-center justify-center gap-2">
+          <a
+            href="mailto:jonas@rasktravel.com?cc=miriam@rasktravel.com"
+            className="flex flex-row items-center justify-center gap-2"
+          >
             <h3 className="font-semibold">Contact Jonas</h3>
             <FaArrowRightLong color="var(--color-primary)" />
-          </div>
+          </a>
         </div>
 
         <div className="flex flex-col lg:flex-row justify-between gap-[20px]">
