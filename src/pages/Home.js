@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../layout/Layout";
 import { Link } from "react-router-dom";
+import LoveComponent from "../components/LoveComponent";
+import { loveData } from "../data";
 
 const Home = () => {
   return (
@@ -28,7 +30,21 @@ const Home = () => {
         </div>
       </div>
 
-      
+      <div className="home-hero-container px-[15px] mt-[100px]">
+        <h2
+          style={{
+            textAlign: "center",
+          }}
+        >
+          THIS MONTH WE LOVE...
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-[50px]">
+          {loveData.map((item, ind) => (
+            <LoveComponent {...item} key={ind} />
+          ))}
+        </div>
+      </div>
     </Layout>
   );
 };
