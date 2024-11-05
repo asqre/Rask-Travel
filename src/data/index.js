@@ -118,3 +118,10 @@ export const partnersData = [
     img: "https://rasktravel.com/data/assets/98c0419f3637b6c5b99e09b2a0421bd1.png",
   },
 ];
+
+export const teamMembers = [
+  { id: 1, initials: "J.R.E." },
+  { id: 2, initials: "C.A." },
+  { id: 3, initials: "K.K." },
+  { id: 4, initials: "N.K." },
+];
