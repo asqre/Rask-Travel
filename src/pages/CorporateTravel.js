@@ -40,7 +40,7 @@ const CorporateTravel = () => {
           </a>
         </h4>
 
-        <h2>Our Work</h2>
+        <h2 className="mb-[-50px]">Our Work</h2>
 
         <div className="flex flex-row justify-between gap-[50px]">
           <div className="flex flex-col gap-[15px] max-w-[120px] text-left">
