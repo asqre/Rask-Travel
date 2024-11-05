@@ -16,7 +16,7 @@
   --color-secondary: #3c3883; 
   --color-tertiary: #3C38831F;
   --color-background: #ffffff; 
-  --color-gray: #8c84a4; 
+  --color-gray: #aaa; 
 }
 
 body {
@@ -51,6 +51,5 @@ body {
     font-size: 13px;
     line-height: 1.8em;
     text-align: justify;
-    font-weight: 700;
   }
 }
