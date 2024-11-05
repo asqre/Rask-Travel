@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import Layout from "../layout/Layout";
 
 const CorporateTravel = () => {
-  return (
-    <div>
-      CorporateTravel
-    </div>
-  )
-}
+  return <Layout>CorporateTravel</Layout>;
+};
 
-export default CorporateTravel
+export default CorporateTravel;
