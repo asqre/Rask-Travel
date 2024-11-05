@@ -32,6 +32,9 @@ const CorporateTravel = () => {
             </h3>
           </a>
         </h4>
+
+        <h2>Our Work</h2>
+        
       </div>
     </Layout>
   );

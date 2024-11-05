@@ -1,30 +1,30 @@
-import img1 from "../assets/images/buyPics/img1.jpg"
-import img2 from "../assets/images/buyPics/img2.jpg"
-import img3 from "../assets/images/buyPics/img3.jpg"
-import img4 from "../assets/images/buyPics/img4.jpg"
-import img5 from "../assets/images/buyPics/img5.jpg"
-import img6 from "../assets/images/buyPics/img6.jpg"
-import img7 from "../assets/images/buyPics/img7.jpg"
-import img8 from "../assets/images/buyPics/img8.jpg"
-import img9 from "../assets/images/buyPics/img9.jpg"
-import img10 from "../assets/images/buyPics/img10.jpg"
-import img11 from "../assets/images/buyPics/img11.jpg"
-import img12 from "../assets/images/buyPics/img12.jpg"
-import img13 from "../assets/images/buyPics/img13.jpg"
-import img14 from "../assets/images/buyPics/img14.jpg"
-import img15 from "../assets/images/buyPics/img15.jpg"
-import img16 from "../assets/images/buyPics/img16.jpg"
-import img17 from "../assets/images/buyPics/img17.jpg"
-import img18 from "../assets/images/buyPics/img18.jpg"
-import img19 from "../assets/images/buyPics/img19.jpg"
-import img20 from "../assets/images/buyPics/img20.jpg"
-import img21 from "../assets/images/buyPics/img21.jpg"
-import img22 from "../assets/images/buyPics/img22.jpg"
-import img23 from "../assets/images/buyPics/img23.jpg"
-import img24 from "../assets/images/buyPics/img24.jpg"
-import img25 from "../assets/images/buyPics/img25.jpg"
-import img26 from "../assets/images/buyPics/img26.jpg"
-import img27 from "../assets/images/buyPics/img27.jpg"
+import img1 from "../assets/images/buyPics/img1.jpg";
+import img2 from "../assets/images/buyPics/img2.jpg";
+import img3 from "../assets/images/buyPics/img3.jpg";
+import img4 from "../assets/images/buyPics/img4.jpg";
+import img5 from "../assets/images/buyPics/img5.jpg";
+import img6 from "../assets/images/buyPics/img6.jpg";
+import img7 from "../assets/images/buyPics/img7.jpg";
+import img8 from "../assets/images/buyPics/img8.jpg";
+import img9 from "../assets/images/buyPics/img9.jpg";
+import img10 from "../assets/images/buyPics/img10.jpg";
+import img11 from "../assets/images/buyPics/img11.jpg";
+import img12 from "../assets/images/buyPics/img12.jpg";
+import img13 from "../assets/images/buyPics/img13.jpg";
+import img14 from "../assets/images/buyPics/img14.jpg";
+import img15 from "../assets/images/buyPics/img15.jpg";
+import img16 from "../assets/images/buyPics/img16.jpg";
+import img17 from "../assets/images/buyPics/img17.jpg";
+import img18 from "../assets/images/buyPics/img18.jpg";
+import img19 from "../assets/images/buyPics/img19.jpg";
+import img20 from "../assets/images/buyPics/img20.jpg";
+import img21 from "../assets/images/buyPics/img21.jpg";
+import img22 from "../assets/images/buyPics/img22.jpg";
+import img23 from "../assets/images/buyPics/img23.jpg";
+import img24 from "../assets/images/buyPics/img24.jpg";
+import img25 from "../assets/images/buyPics/img25.jpg";
+import img26 from "../assets/images/buyPics/img26.jpg";
+import img27 from "../assets/images/buyPics/img27.jpg";
 import Logo from "../components/Logo";
 
 export const navItems = [
@@ -176,9 +176,9 @@ export const teamMembers = [
     languages: "English, Dhivehi, Mandarin & Spanish (conversational)",
     raskal: "2021",
     destination: "Sri Lanka, Sardinia, Philippines",
-    experiences: "Sleeping al fresco in the Goan jungle, Platzkart train in Russia, Cormorant fishing in Guilin",
-    bucketList:
-      "Georgia, Minicoy Island, Costa Rica",
+    experiences:
+      "Sleeping al fresco in the Goan jungle, Platzkart train in Russia, Cormorant fishing in Guilin",
+    bucketList: "Georgia, Minicoy Island, Costa Rica",
     drink: "Bloody Mary",
     travel: "Ending up wanting to live there",
     mailto: "mailto:jonas@rasktravel.com?cc=miriam@rasktravel.com",
@@ -194,7 +194,8 @@ export const teamMembers = [
     languages: "Polish, English",
     raskal: "2024",
     destination: "Paris and Tenerife",
-    experiences: "AMAZE audio visual experience in Amsterdam and boat trip to Gozo and Comino in Malta.",
+    experiences:
+      "AMAZE audio visual experience in Amsterdam and boat trip to Gozo and Comino in Malta.",
     bucketList:
       "Helicopter night ride around New York; Skydiving in Dubai and feeding lemurs in Madagascar",
     drink: "Espresso Martini",
@@ -250,4 +251,79 @@ export const galleryImages = [
   { src: img25, alt: "Image 25" },
   { src: img26, alt: "Image 26" },
   { src: img27, alt: "Image 27" },
+];
+
+export const caseStudies = [
+  {
+    id: "1",
+    location: "Copenhagen",
+    title: "Copenhagen Fashion Summit",
+    details:
+      "<div><strong>Who</strong><br>Global Fashion Agenda, a non-profit thought leadership and advocacy organisation on fashion sustainability.<br><br><strong>What</strong><br>RASK has been involved with the Summit since 2013 and became the official hospitality partner in 2018. We deal with all elements of VIP travel from budgeting to coordinating flights, hotels, and travel logistics for over 200 guests, before and during the three-day annual event. This also includes ground transport for 400 guests during the event itself.</div>",
+    image:
+      "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+  },
+  {
+    id: "2",
+    location: "Doha",
+    title: "Global Security Forum",
+    details:
+      "<div><strong>Who</strong><br>An international organisation at the forefront of research, analysis and dialogue related to global security issues.<br><br><strong>What</strong><br>RASK was contracted to manage travel for over 100 VIPs travelling to Doha for this two-day event. Personalized travel solutions were provided to ambassadors, military officials, CEOs, and more. Our services on the ground during the event ensured everything ran smoothly for the client and that each individual traveller's needs were met seamlessly.</div>",
+    image:
+      "https://rasktravel.com/data/assets/7712bd71abe7e222f3ef4e6d3c8e8b70.jpg",
+  },
+  {
+    id: "3",
+    location: "Conrad Maldives",
+    title: "Maldives Corporate Incentive",
+    details:
+      "<div><strong>Who</strong><br>b:hip Global, an international company helping people be the best versions of themselves, within a global community.<br><br><strong>What</strong><br>RASK organized a unique incentive trip for b:hip Global, coordinating travel for over 150 of their members to the stunning Conrad Maldives. Services included personalized itineraries, on-the-ground logistics, and exclusive experiences designed to reward high-performing individuals within the company.</div>",
+    image:
+      "https://rasktravel.com/data/assets/26a472dcd2bb4e6d9f8837b20ab3c3e4.jpg",
+  },
+  {
+    id: "4",
+    location: "Jakarta",
+    title: "The 2018 Asian Games",
+    details:
+      "<div><strong>Who</strong><br>FiveCurrents, a premier creator and producer of live content and ceremonies.<br><br><strong>What</strong><br>Following RASK’s successful partnership with FiveCurrents during the 2015 European Games, we were brought back for a second collaboration on an event of even bigger scale. Our team worked 24/7 handling hundreds of flight tickets, dealing with last minutes requests and multiple changes as required by the team. Additionally, we contracted long and short stay rates at several 5* and 4* hotels in town on behalf of our client, before, during and after the event.</div>",
+    image:
+      "https://rasktravel.com/data/assets/b63f3f35a0472b157de0da8041141772.jpg",
+  },
+  {
+    id: "5",
+    location: "Paris",
+    title: "Exclusive Paris Vernissage",
+    details:
+      "<div><strong>Who</strong><br>Galerie Mikael Andersen, Denmark’s most respected art gallery, exhibiting Danish and International contemporary art.<br><br><strong>What</strong><br>Presented at the Musée National d'Art Moderne and attended by royalty and members of high society alike, the logistics involved in this ultra-exclusive vernissage needed to be handled meticulously, with the utmost care and attention to detail. Furthermore, choosing the right hotel for the VIPs in attendance was critical and this is where RASK’s knowledge of and partnership with luxury brands was invaluable to the client.</div>",
+    image:
+      "https://rasktravel.com/data/assets/aa6bd444583d9c6e34bbbb6ad8202479.jpg",
+  },
+  {
+    id: "6",
+    location: "Milan",
+    title: "Green Carpet Fashion Awards",
+    details:
+      "<div><strong>Who</strong><br>Eco-Age x Camera Nazionale della Moda Italiana.<br><br><strong>What</strong><br>An event that once per year brings together some of the biggest names in media, fashion and design, to promote and celebrate sustainable fashion. Naturally there is a high number of VIPs attending the event, most of whom are handled by RASK. We ensure they travel as comfortably as possible, keeping within the budget and sustainability guidelines, and handle their airport transfers, VIP assistance, and any other special requirements.</div>",
+    image:
+      "https://rasktravel.com/data/assets/a90ec087a6bb50c11a4037bfd677f39c.jpg",
+  },
+  {
+    id: "7",
+    location: "Bologna, Warsaw, Melbourne, Warwickshire",
+    title: "Etsy Captain Summit",
+    details:
+      "<div><strong>Who</strong><br>Etsy, a global online marketplace for unique and creative goods, with local communities worldwide.<br><br><strong>What</strong><br>Once per year, Etsy arranges a summit for their local captains in each region, resulting in one to three events annually across the globe. RASK has been part of the production and planning of these events since 2017 and is in charge of researching destinations, venues, activities and local partners, on behalf of Etsy. We negotiate accommodation rates, conference packages (DDR and similar), and work within the budget to ensure 40 – 80 participants arrive smoothly to each two-day event, domestically or internationally.</div>",
+    image:
+      "https://rasktravel.com/data/assets/cf03212c08ed303a6152ed8199c658f9.jpg",
+  },
+  {
+    id: "8",
+    location: "Baku",
+    title: "Baku 2015 European Games",
+    details:
+      "<div><strong>Who</strong><br>FiveCurrents, a premier creator and producer of live content and ceremonies.<br><br><strong>What</strong><br>RASK’s work on the 2015 European Games started 6-months pre-event and lasted until 2-months post-event. It involved coordinating travel for staff members relocating for the event, and creating tailor-made trips for their contracted holidays during this time. We handled group travel across the world for the team which involved flight ticketing, hotel and meeting space bookings, airport transfers, and VIP services. Finally, all talent performing on stage during the event, were flown in by RASK (approx. 500 people).</div>",
+    image:
+      "https://rasktravel.com/data/assets/2b0278e635f4ae924e75141a618977e4.jpg",
+  },
 ];
