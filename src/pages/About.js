@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Layout from "../layout/Layout";
 import { teamMembers } from "../data";
+import TeamMember from "../components/TeamMember";
 
 const About = () => {
   const [activeMember, setActiveMember] = useState(1);
@@ -100,7 +101,9 @@ const About = () => {
                 </h4>
               </div>
             ))}
+
           </div>
+            <TeamMember />
         </div>
       </div>
     </Layout>
