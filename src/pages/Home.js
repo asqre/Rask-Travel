@@ -59,15 +59,16 @@ const Home = () => {
     <Layout>
       <div className="home-hero-container px-[15px] mt-[100px]">
         <h4 className="mx-auto w-full max-w-[640px]" style={{}}>
-          i-sky Travel is an international luxury travel agency headquartered in
-          London. We specialise in tailor-made travel arrangements across the
-          globe, for private and corporate clients.
+          I-SKY Travels is an international luxury travel agency headquartered
+          in Dubai, United Arab Emirates. We specialize in tailor-made travel
+          arrangements across the globe, for private clientele & respective
+          families.
           <br />
           <br />
-          Our team of professional travel designers and coordinators will go
-          above and beyond to create the perfect journey, weekend getaway,
-          destination wedding, corporate incentive, global conference, and much
-          more.
+          Our dedicated team of professional travel designers and coordinators
+          are committed to exceeding expectations by crafting the ideal journey,
+          vacation, or special event holiday for you and your family from the
+          very beginning.
         </h4>
 
         <div className="flex flex-row justify-center items-center mt-[20px] gap-10">

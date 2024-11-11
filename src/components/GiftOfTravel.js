@@ -29,13 +29,9 @@ const GiftOfTravel = () => {
 
           <div className="flex flex-col items-center md:flex-row md:justify-between gap-5">
             <h3>
-              Give your friends and family a small gift that will go a long way,
-              or as far as they want to go. Not sure about the next birthday,
-              anniversary, or Christmas present? Leave it to us. In just a few
-              quick steps, a tailor-made gift box can be on its way to an
-              address of your choice. Choose any amount over GBP 200 for the
-              recipient to spend as they please with RASK, or surprise them with
-              something you’ve always known they wanted to do.
+              A Perfect gift for a perfect occassion. I-sky travel voucher for
+              your friends & family. As low as AED 1000 and infinite travel to
+              choose from....
               <br />
               <br />
               Email{" "}

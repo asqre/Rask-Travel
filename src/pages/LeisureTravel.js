@@ -12,13 +12,13 @@ const LeisureTravel = () => {
           elephant in nature. Take in the view of a place you never imagined
           you'd see. Fly twelve hours to dine at that Michelin star restaurant.
           Visit a remote indigenous tribe and step back in time. Return to your
-          favourite city. Watch an island sunset… or let RASK inspire you.
+          favorite city. Watch an island sunset… or let I-sky inspire you.
           <br />
           <br />
-          At RASK we believe that travel is first and foremost about feelings
+          At I-sky we believe that travel is first and foremost about feelings
           and emotions. Our priority is to allow you to fully immerse in your
           travel experience from the moment you first dream of it until long
-          after you've returned home. We will customise the journey specifically
+          after you've returned home. We will customize the journey specifically
           for you and will take care of all the small details, from start to
           finish.
           <br />
