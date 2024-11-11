@@ -40,7 +40,7 @@ const GiftOfTravel = () => {
               <br />
               Email{" "}
               <strong className="underline">
-                <a href="mailto:info@rasktravel.com">info@rasktravel.com</a>
+                <a href="mailto:mail@iskytravels.com">mail@iskytravels.com</a>
               </strong>{" "}
               for more information and purchases.
               <br />

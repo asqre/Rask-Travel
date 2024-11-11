@@ -27,7 +27,7 @@ const LeisureTravel = () => {
           <br />
           <br />
           <br />
-          <a href="mailto:info@rasktravel.com">
+          <a href="mailto:mail@iskytravels.com">
             <h3 className="italic font-bold underline text-center">
               Feeling inspired? Drop us a line.
             </h3>

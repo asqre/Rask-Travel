@@ -54,7 +54,7 @@ const Footer = () => {
                 fontWeight: "bold",
               }}
             >
-              <a href="mailto:info@rasktravel.com">info@rasktravel.com</a>
+              <a href="mailto:mail@iskytravels.com">mail@iskytravels.com</a>
             </h3>
 
             <div className="flex flex-row gap-5 mt-[10px]">
@@ -80,7 +80,7 @@ const Footer = () => {
             color: "var(--color-gray)",
           }}
         >
-          RASK Travel, 9 Appold St, 8th Floor, London EC2A 2AP, United Kingdom
+          i-sky Travel, 9 Appold St, 8th Floor, London EC2A 2AP, United Kingdom
         </div>
       </div>
     </footer>

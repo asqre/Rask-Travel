@@ -28,8 +28,8 @@ const About = () => {
               exploring the most far-flung destinations, he went on to become
               one of Denmark’s most famous scholars and a world-renowned
               philologist. 200 years later, Jonas Rask Eilersen followed in his
-              ancestor’s footsteps and established <strong>RASK Travel</strong>,
-              your gateway to the world.
+              ancestor’s footsteps and established <strong>i-sky Travel</strong>
+              , your gateway to the world.
             </h3>
           </div>
 

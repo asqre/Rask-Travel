@@ -59,7 +59,7 @@ const Home = () => {
     <Layout>
       <div className="home-hero-container px-[15px] mt-[100px]">
         <h4 className="mx-auto w-full max-w-[640px]" style={{}}>
-          RASK Travel is an international luxury travel agency headquartered in
+          i-sky Travel is an international luxury travel agency headquartered in
           London. We specialise in tailor-made travel arrangements across the
           globe, for private and corporate clients.
           <br />
