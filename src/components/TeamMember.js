@@ -20,7 +20,7 @@ const TeamMember = ({ member }) => {
             href={member.mailto}
             className="flex flex-row items-center justify-center gap-2"
           >
-            <h3 className="font-semibold">Contact Jonas</h3>
+            <h3 className="font-semibold">Contact {member.name}</h3>
             <FaArrowRightLong color="var(--color-primary)" />
           </a>
         </div>
@@ -28,45 +28,37 @@ const TeamMember = ({ member }) => {
         <div className="flex flex-col lg:flex-row justify-between gap-[20px]">
           <div className="flex flex-col gap-[20px] max-w-[300px]">
             <div>
-              <h2>Born in</h2>
-              <h3>{member.bornIn}</h3>
+              <h2>LOCATION</h2>
+              <h3>{member.location}</h3>
             </div>
 
             <div>
-              <h2>RASKAL SINCE</h2>
-              <h3>{member.raskal}</h3>
+              <h2>TONGUES TIED</h2>
+              <h3>{member.tonguesTied}</h3>
             </div>
 
             <div>
-              <h2>MOST MEMORABLE EXPERIENCES</h2>
-              <h3>{member.experiences}</h3>
+              <h2>FAMILY FUN ZONES</h2>
+              <h3>{member.familyFunZones}</h3>
             </div>
 
-            <div>
-              <h2>FAVOURITE DRINK</h2>
-              <h3>{member.drink}</h3>
-            </div>
+            
           </div>
 
           <div className="flex flex-col gap-[20px] max-w-[300px]">
             <div>
-              <h2>SPOKEN LANGUAGES</h2>
-              <h3>{member.languages}</h3>
+              <h2>BUCKET LIST WISHES</h2>
+              <h3>{member.bucketListWishes}</h3>
             </div>
 
             <div>
-              <h2>FAVOURITE DESTINATIONS</h2>
-              <h3>{member.destination}</h3>
+              <h2>TRAVEL TIP</h2>
+              <h3>{member.travelTip}</h3>
             </div>
 
             <div>
-              <h2>BUCKET LIST</h2>
-              <h3>{member.bucketList}</h3>
-            </div>
-
-            <div>
-              <h2>CAN'T TRAVEL WITHOUT</h2>
-              <h3>{member.travel}</h3>
+              <h2>SOLO ESCAPADE HAVENS</h2>
+              <h3>{member.soloEscapadeHavens}</h3>
             </div>
           </div>
         </div>
