@@ -34,9 +34,6 @@ const Footer = () => {
               <a href="/love">What we Love</a>
             </h3>
             <h3>
-              <a href="/press">Press Room &amp; Testimonials</a>
-            </h3>
-            <h3>
               <a href="/terms">Terms &amp; Conditions</a>
             </h3>
           </div>
