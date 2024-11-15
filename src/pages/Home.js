@@ -90,7 +90,7 @@ const Home = () => {
           THIS MONTH WE LOVE...
         </h2>
 
-        <div className="w-full m-auto mb-[100px]">
+        <div className="w-full m-auto mb-[100px] mt-[50px]">
           <Slider {...settings}>
             {loveData.map((item, ind) => (
               <LoveComponent {...item} key={ind} />

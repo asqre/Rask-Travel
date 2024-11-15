@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import LeisureTravel from "./pages/LeisureTravel";
 import CorporateTravel from "./pages/CorporateTravel";
+import Love from "./pages/Love";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="/leisure" element={<LeisureTravel />} />
       <Route path="/corporate" element={<CorporateTravel />} />
+      <Route path="/love" element={<Love />} />
     </Routes>
   );
 };
