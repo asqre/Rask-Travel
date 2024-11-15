@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import GiftOfTravel from "../components/GiftOfTravel";
 import Testimonial from "../components/Testimonial";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Home = () => {
   var settings = {
@@ -96,6 +97,16 @@ const Home = () => {
               <LoveComponent {...item} key={ind} />
             ))}
           </Slider>
+
+          <div className="w-full flex justify-end cursor-pointer mt-10 sm:mt-6">
+            <Link
+              to="/love"
+              className="flex flex-row items-center justify-center gap-2"
+            >
+              <h3 className="font-semibold focus:underline">We also love</h3>
+              <FaArrowRightLong color="var(--color-primary)" />
+            </Link>
+          </div>
         </div>
       </div>
 
