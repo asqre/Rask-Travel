@@ -280,74 +280,132 @@ export const galleryImages = [
 export const caseStudies = [
   {
     id: "1",
-    location: "Copenhagen",
-    title: "Copenhagen Fashion Summit",
-    details:
-      "<div><strong>Who</strong><br>Global Fashion Agenda, a non-profit thought leadership and advocacy organisation on fashion sustainability.<br><br><strong>What</strong><br>RASK has been involved with the Summit since 2013 and became the official hospitality partner in 2018. We deal with all elements of VIP travel from budgeting to coordinating flights, hotels, and travel logistics for over 200 guests, before and during the three-day annual event. This also includes ground transport for 400 guests during the event itself.</div>",
-    image:
-      "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+    // location: "Copenhagen",
+    title: "Sparkling Treasures",
+    // details:
+    //   "<div><strong>Who</strong><br>Global Fashion Agenda, a non-profit thought leadership and advocacy organisation on fashion sustainability.<br><br><strong>What</strong><br>RASK has been involved with the Summit since 2013 and became the official hospitality partner in 2018. We deal with all elements of VIP travel from budgeting to coordinating flights, hotels, and travel logistics for over 200 guests, before and during the three-day annual event. This also includes ground transport for 400 guests during the event itself.</div>",
+    images: [
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Waikato, New Zealand",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Fukuoka, Japan",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Abu Dhabi, UAE",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Krabi, Thailand",
+      },
+    ],
   },
   {
     id: "2",
-    location: "Doha",
-    title: "Global Security Forum",
-    details:
-      "<div><strong>Who</strong><br>An international organisation at the forefront of research, analysis and dialogue related to global security issues.<br><br><strong>What</strong><br>RASK was contracted to manage travel for over 100 VIPs travelling to Doha for this two-day event. Personalized travel solutions were provided to ambassadors, military officials, CEOs, and more. Our services on the ground during the event ensured everything ran smoothly for the client and that each individual traveller's needs were met seamlessly.</div>",
-    image:
-      "https://rasktravel.com/data/assets/7712bd71abe7e222f3ef4e6d3c8e8b70.jpg",
+    // location: "Doha",
+    title: "Most Enjoyable Evenings",
+    // details:
+    //   "<div><strong>Who</strong><br>An international organisation at the forefront of research, analysis and dialogue related to global security issues.<br><br><strong>What</strong><br>RASK was contracted to manage travel for over 100 VIPs travelling to Doha for this two-day event. Personalized travel solutions were provided to ambassadors, military officials, CEOs, and more. Our services on the ground during the event ensured everything ran smoothly for the client and that each individual traveller's needs were met seamlessly.</div>",
+    images: [
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Azurmendi, Larrabetzu, Spain",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Le Bernardin, New York, USA",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "3. Robuchon au Dôme, Macau, China",
+      },
+    ],
   },
   {
     id: "3",
-    location: "Conrad Maldives",
-    title: "Maldives Corporate Incentive",
-    details:
-      "<div><strong>Who</strong><br>b:hip Global, an international company helping people be the best versions of themselves, within a global community.<br><br><strong>What</strong><br>RASK organized a unique incentive trip for b:hip Global, coordinating travel for over 150 of their members to the stunning Conrad Maldives. Services included personalized itineraries, on-the-ground logistics, and exclusive experiences designed to reward high-performing individuals within the company.</div>",
-    image:
-      "https://rasktravel.com/data/assets/9f7325483c75891a78f5647bff455abb.jpg",
+    // location: "Conrad Maldives",
+    title: "Popular Destinations",
+    // details:
+    //   "<div><strong>Who</strong><br>b:hip Global, an international company helping people be the best versions of themselves, within a global community.<br><br><strong>What</strong><br>RASK organized a unique incentive trip for b:hip Global, coordinating travel for over 150 of their members to the stunning Conrad Maldives. Services included personalized itineraries, on-the-ground logistics, and exclusive experiences designed to reward high-performing individuals within the company.</div>",
+    images: [
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Athens Riveria, Greece",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Kyoto, Japan",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Botswana & Namibia",
+      },
+    ],
   },
   {
     id: "4",
-    location: "Jakarta",
-    title: "The 2018 Asian Games",
-    details:
-      "<div><strong>Who</strong><br>FiveCurrents, a premier creator and producer of live content and ceremonies.<br><br><strong>What</strong><br>Following RASK’s successful partnership with FiveCurrents during the 2015 European Games, we were brought back for a second collaboration on an event of even bigger scale. Our team worked 24/7 handling hundreds of flight tickets, dealing with last minutes requests and multiple changes as required by the team. Additionally, we contracted long and short stay rates at several 5* and 4* hotels in town on behalf of our client, before, during and after the event.</div>",
-    image:
-      "https://rasktravel.com/data/assets/b63f3f35a0472b157de0da8041141772.jpg",
+    // location: "Jakarta",
+    title: "One-of-a-Kind Getaway!",
+    // details:
+    //   "<div><strong>Who</strong><br>FiveCurrents, a premier creator and producer of live content and ceremonies.<br><br><strong>What</strong><br>Following RASK’s successful partnership with FiveCurrents during the 2015 European Games, we were brought back for a second collaboration on an event of even bigger scale. Our team worked 24/7 handling hundreds of flight tickets, dealing with last minutes requests and multiple changes as required by the team. Additionally, we contracted long and short stay rates at several 5* and 4* hotels in town on behalf of our client, before, during and after the event.</div>",
+    images: [
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Burj Al Arab, Dubai, UAE",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Necker Island, British Virgin Islands",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Explora El Chaltén, Patagonia, Argentina",
+      },
+    ],
   },
   {
     id: "5",
-    location: "Paris",
-    title: "Exclusive Paris Vernissage",
-    details:
-      "<div><strong>Who</strong><br>Galerie Mikael Andersen, Denmark’s most respected art gallery, exhibiting Danish and International contemporary art.<br><br><strong>What</strong><br>Presented at the Musée National d'Art Moderne and attended by royalty and members of high society alike, the logistics involved in this ultra-exclusive vernissage needed to be handled meticulously, with the utmost care and attention to detail. Furthermore, choosing the right hotel for the VIPs in attendance was critical and this is where RASK’s knowledge of and partnership with luxury brands was invaluable to the client.</div>",
-    image:
-      "https://rasktravel.com/data/assets/aa6bd444583d9c6e34bbbb6ad8202479.jpg",
+    // location: "Paris",
+    title: "Animal Love",
+    // details:
+    //   "<div><strong>Who</strong><br>Galerie Mikael Andersen, Denmark’s most respected art gallery, exhibiting Danish and International contemporary art.<br><br><strong>What</strong><br>Presented at the Musée National d'Art Moderne and attended by royalty and members of high society alike, the logistics involved in this ultra-exclusive vernissage needed to be handled meticulously, with the utmost care and attention to detail. Furthermore, choosing the right hotel for the VIPs in attendance was critical and this is where RASK’s knowledge of and partnership with luxury brands was invaluable to the client.</div>",
+    images: [
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Ballet of Japanese cranes Hokkaido, Japan",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Penguin Parade Phillip Island, Australia",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "“Black Sun” starlings’ Wadden Sea, Denmark",
+      },
+    ],
   },
   {
     id: "6",
-    location: "Milan",
-    title: "Green Carpet Fashion Awards",
-    details:
-      "<div><strong>Who</strong><br>Eco-Age x Camera Nazionale della Moda Italiana.<br><br><strong>What</strong><br>An event that once per year brings together some of the biggest names in media, fashion and design, to promote and celebrate sustainable fashion. Naturally there is a high number of VIPs attending the event, most of whom are handled by RASK. We ensure they travel as comfortably as possible, keeping within the budget and sustainability guidelines, and handle their airport transfers, VIP assistance, and any other special requirements.</div>",
-    image:
-      "https://rasktravel.com/data/assets/a90ec087a6bb50c11a4037bfd677f39c.jpg",
-  },
-  {
-    id: "7",
-    location: "Bologna, Warsaw, Melbourne, Warwickshire",
-    title: "Etsy Captain Summit",
-    details:
-      "<div><strong>Who</strong><br>Etsy, a global online marketplace for unique and creative goods, with local communities worldwide.<br><br><strong>What</strong><br>Once per year, Etsy arranges a summit for their local captains in each region, resulting in one to three events annually across the globe. RASK has been part of the production and planning of these events since 2017 and is in charge of researching destinations, venues, activities and local partners, on behalf of Etsy. We negotiate accommodation rates, conference packages (DDR and similar), and work within the budget to ensure 40 – 80 participants arrive smoothly to each two-day event, domestically or internationally.</div>",
-    image:
-      "https://rasktravel.com/data/assets/cf03212c08ed303a6152ed8199c658f9.jpg",
-  },
-  {
-    id: "8",
-    location: "Baku",
-    title: "Baku 2015 European Games",
-    details:
-      "<div><strong>Who</strong><br>FiveCurrents, a premier creator and producer of live content and ceremonies.<br><br><strong>What</strong><br>RASK’s work on the 2015 European Games started 6-months pre-event and lasted until 2-months post-event. It involved coordinating travel for staff members relocating for the event, and creating tailor-made trips for their contracted holidays during this time. We handled group travel across the world for the team which involved flight ticketing, hotel and meeting space bookings, airport transfers, and VIP services. Finally, all talent performing on stage during the event, were flown in by RASK (approx. 500 people).</div>",
-    image:
-      "https://rasktravel.com/data/assets/2b0278e635f4ae924e75141a618977e4.jpg",
+    // location: "Milan",
+    title: "Love for Nature",
+    // details:
+    //   "<div><strong>Who</strong><br>Eco-Age x Camera Nazionale della Moda Italiana.<br><br><strong>What</strong><br>An event that once per year brings together some of the biggest names in media, fashion and design, to promote and celebrate sustainable fashion. Naturally there is a high number of VIPs attending the event, most of whom are handled by RASK. We ensure they travel as comfortably as possible, keeping within the budget and sustainability guidelines, and handle their airport transfers, VIP assistance, and any other special requirements.</div>",
+    images: [
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Bioluminescent plankton Vero Beach, Florida",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "International Dark Sky Park Arches National Park, Utah",
+      },
+      {
+        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        imgName: "Starling murmurations Somerset, U.K.",
+      },
+    ],
   },
 ];
