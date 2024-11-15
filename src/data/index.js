@@ -44,7 +44,7 @@ export const navItems = [
     backgroundImage: "https://rasktravel.com/assets/header_home.jpg",
   },
   {
-    name: "Corporate Travel",
+    name: "Travel Trends",
     path: "/corporate",
     backgroundImage: "https://rasktravel.com/assets/header_corporate.jpg",
   },
