@@ -126,16 +126,20 @@ export const loveData = [
 
 export const testimonialData = [
   {
-    profession: `Eva Kruse, Ex-CEO of Global Fashion Agenda and Copenhagen Fashion Week`,
-    feedback: `You have done an incredible job as our travel partner. No matter the time of day and complexity of task, you came back with a solution straight away and solved any challenges we might have had. Our VIPs were beyond satisfied with the high level of service you provided.`,
+    profession: `Vasil I. & family`,
+    feedback: `Traveling with I-SKY was a breeze. They took care of everything, from flights and transfers to excursions and dining reservations. We were able to relax and enjoy our holiday without any worries. Their expertise and dedication to customer satisfaction are truly commendable...`,
   },
   {
-    profession: `Uffe Buchard, Creative Director at Grenaabuchard & Editor in Chief of DANSK Magazine`,
-    feedback: `You guys are simply incredible!!! I must say… the RASK team is world-class… We would travel with you to the end of the world.`,
+    profession: `Joerg H.`,
+    feedback: `Our stay at the exclusive resort recommended by I-SKY was pure luxury. The attention to detail and the level of comfort provided were unparalleled. The team at I-SKY ensured that every aspect of our trip was perfect, from the moment we arrived until we departed. We couldn't have asked for a better travel agency.`,
   },
   {
-    profession: `Malene Birger, Founder and Creative Director of BIRGER1962`,
-    feedback: `RASK is quite simply the best travel agency I know of; smart, inspiring, modern and thorough. Impeccable attention to detail. There are not many people like them out there; the RASK team deserves a standing ovation.`,
+    profession: `Salik Imran & family`,
+    feedback: `I've been using I-SKY for all my trips since 2021. A friend recommended them, and I loved how easy they made my first trip to the United States. Since then, I've used their services for trips to Norway, Bali, Thailand, France, Canada, and Denmark. They create a private group with their team to help me choose a destination and organize everything quickly.`,
+  },
+  {
+    profession: `Hazza Mansoory & family`,
+    feedback: `I-SKY is the best, especially for my family trips to the United Kingdom and Europe. With 14 members, it's tough to organize everything, but I-SKY makes it seamless. Every trip is planned in advance and organized using a checklist. A team member is always available online in case of any issues. We receive check-ins before every flight and reminders for any extensions. It's like having a private travel desk facility, which we love the most.`,
   },
 ];
 

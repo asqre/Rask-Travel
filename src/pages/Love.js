@@ -20,7 +20,7 @@ const Love = () => {
           can’t wait for you to try.
         </h4>
 
-        <div className="w-full m-auto mb-[100px]">
+        <div className="w-full m-auto mb-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {loveData.slice(0, visibleItems).map((item, ind) => (
             <LoveComponent {...item} key={ind} />
           ))}
