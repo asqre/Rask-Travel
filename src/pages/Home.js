@@ -133,7 +133,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home-partner px-[15px] my-[100px]">
+      {/* <div className="home-partner px-[15px] my-[100px]">
         <h2
           style={{
             textAlign: "center",
@@ -148,7 +148,7 @@ const Home = () => {
             <img src={partner.img} alt="partner logo" key={index} width="100" />
           ))}
         </div>
-      </div>
+      </div> */}
     </Layout>
   );
 };
