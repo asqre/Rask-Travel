@@ -53,11 +53,6 @@ export const navItems = [
     path: "/contact",
     backgroundImage: "https://rasktravel.com/assets/header_contact.jpg",
   },
-  {
-    name: "Love",
-    path: "/love",
-    backgroundImage: "https://rasktravel.com/assets/header_what_we_love.jpg",
-  },
 ];
 
 export const loveData = [

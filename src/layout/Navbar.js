@@ -21,7 +21,7 @@ const Navbar = () => {
   useEffect(() => {
     if (location.pathname !== selectedNavItem.path) {
       setSelectedNavItem(
-        navItems.find((item) => item.path === location.pathname)
+        navItems.find((item) => item.path === location.pathname) || navItems[2]
       );
     }
   }, [location.pathname, selectedNavItem.path]);
@@ -31,7 +31,10 @@ const Navbar = () => {
       id="nav-container"
       className="relative bg-cover bg-center h-[685px] w-full"
       style={{
-        backgroundImage: `url(${selectedNavItem.backgroundImage})`,
+        backgroundImage:
+          location.pathname === "/love"
+            ? `url("https://rasktravel.com/assets/header_what_we_love.jpg")`
+            : `url(${selectedNavItem.backgroundImage})`,
         paddingTop: isMobileMenuOpen ? "30px" : "40px",
       }}
     >
