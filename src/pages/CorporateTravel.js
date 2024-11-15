@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Layout from "../layout/Layout";
 import { caseStudies } from "../data";
+import TravelComponent from "../components/TravelComponent";
+import Slider from "react-slick";
 
 const CorporateTravel = () => {
   const [selectedCase, setSelectedCase] = useState(caseStudies[0]);
@@ -9,10 +11,24 @@ const CorporateTravel = () => {
     setSelectedCase(caseStudies[caseIndex]);
   };
 
+  var settings3 = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    adaptiveHeight: false,
+    initialSlide: 0,
+  };
+
   return (
     <Layout>
-      <div className="flex flex-col items-center gap-[100px] my-[50px] w-full px-[30px]">
-        <h4 className="max-w-[640px]">
+      <div className="flex flex-col items-center gap-[100px] my-[50px] w-full">
+        <h4 className="max-w-[640px] px-[30px]">
           As we step into 2025, I-SKY is at the forefront of curating
           unparalleled travel experiences. Our mission is to showcase the best
           locations, luxurious properties, meticulously crafted itineraries, and
@@ -32,9 +48,9 @@ const CorporateTravel = () => {
           </a>
         </h4>
 
-        <h2 className="mb-[-50px]">Our Work</h2>
+        <h2 className="mb-[-50px] px-5">Our Work</h2>
 
-        <div className="flex flex-row justify-between gap-[50px]">
+        <div className="flex flex-row justify-between gap-[10px] sm:gap-[50px] sm:px-[30px]">
           <div className="flex flex-col gap-[15px] max-w-[120px] text-left">
             {caseStudies.map((cases, index) => (
               <h3
@@ -48,19 +64,12 @@ const CorporateTravel = () => {
             ))}
           </div>
 
-          <div className="flex flex-col md:flex-row gap-[15px]">
-            <img
-              id="case-image"
-              className="w-[400px] h-[480px]"
-              alt={selectedCase.title}
-              src={selectedCase.image}
-            />
-
-            <div className="flex flex-col gap-[20px] max-w-[340px]">
-              <h3 className="uppercase">{selectedCase.location}</h3>
-              <div className="text-[28px]">{selectedCase.title}</div>
-              <h3 dangerouslySetInnerHTML={{ __html: selectedCase.details }} />
-            </div>
+          <div className="w-[60vw] sm:w-[50vw] overflow-hidden">
+            <Slider {...settings3}>
+              {selectedCase.images.map((item, ind) => (
+                <TravelComponent {...item} key={ind} />
+              ))}
+            </Slider>
           </div>
         </div>
       </div>
