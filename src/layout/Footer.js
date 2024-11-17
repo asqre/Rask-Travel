@@ -22,7 +22,7 @@ const Footer = () => {
       <div className="p-[30px]">
         <div className="flex flex-col">
           <div className="flex justify-center mb-[10px] md:hidden">
-            <Link href="/contact">
+            <Link to="/contact">
               <h3>DUBAI</h3>
             </Link>
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
 
           <div className="footer-center-column hidden md:flex">
             <h3>
-              <a href="/contact">DUBAI</a>
+              <Link to="/contact">DUBAI</Link>
             </h3>
           </div>
 
@@ -55,13 +55,25 @@ const Footer = () => {
             </h3>
 
             <div className="flex flex-row gap-5 mt-[10px]">
-              <a href="https://t.me/iskytravel">
+              <a
+                href="https://t.me/iskytravel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaTelegram size={18} />
               </a>
-              <a href="https://www.instagram.com/iskytravels/profilecard/?igsh=MTZ3ZWttYWIxMmMzZA==">
+              <a
+                href="https://www.instagram.com/iskytravels/profilecard/?igsh=MTZ3ZWttYWIxMmMzZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaSquareInstagram size={18} />
               </a>
-              <a href="https://www.linkedin.com/company/infinite-sky-travels-llc/">
+              <a
+                href="https://www.linkedin.com/company/infinite-sky-travels-llc/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <ImLinkedin size={18} />
               </a>
             </div>
