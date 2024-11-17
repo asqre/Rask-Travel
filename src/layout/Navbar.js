@@ -26,15 +26,24 @@ const Navbar = () => {
     }
   }, [location.pathname, selectedNavItem.path]);
 
-  return (
-    <div
-      id="nav-container"
-      className="relative bg-cover bg-center h-[685px] w-full"
-      style={{
+  const hasBackgroundImage = location.pathname !== "/terms";
+  const navContainerStyle = hasBackgroundImage
+    ? {
         backgroundImage:
           location.pathname === "/love"
             ? `url("https://rasktravel.com/assets/header_what_we_love.jpg")`
             : `url(${selectedNavItem.backgroundImage})`,
+      }
+    : {};
+
+  return (
+    <div
+      id="nav-container"
+      className={`relative bg-cover bg-center w-full ${
+        hasBackgroundImage ? "h-[685px]" : ""
+      }`}
+      style={{
+        ...navContainerStyle,
         paddingTop: isMobileMenuOpen ? "30px" : "40px",
       }}
     >

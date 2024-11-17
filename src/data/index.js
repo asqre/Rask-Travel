@@ -1,7 +1,7 @@
 import Logo from "../components/Logo";
-import pp from "../assets/team/PP.jpg"
-import ap from "../assets/team/AP.jpg"
-import vk from "../assets/team/VK.jpg"
+import pp from "../assets/team/PP.jpg";
+import ap from "../assets/team/AP.jpg";
+import vk from "../assets/team/VK.jpg";
 
 export const navItems = [
   {
@@ -17,12 +17,14 @@ export const navItems = [
   {
     name: <Logo />,
     path: "/",
-    backgroundImage: "https://images.unsplash.com/photo-1545063914-a1a6ec821c88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    backgroundImage:
+      "https://images.unsplash.com/photo-1545063914-a1a6ec821c88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Travel Trends",
     path: "/corporate",
-    backgroundImage: "https://plus.unsplash.com/premium_photo-1664304565520-b939e5d65ef7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    backgroundImage:
+      "https://plus.unsplash.com/premium_photo-1664304565520-b939e5d65ef7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Contact",
@@ -168,8 +170,7 @@ export const teamMembers = [
       "Sardinia, Italy, and a WILD adventure in the Galapagos, Ecuador!",
     travelTip: "Pack light, because less is definitely more!",
     mailto: "mailto:mail@iskytravels.com",
-    photo:
-      pp,
+    photo: pp,
   },
   {
     id: 2,
@@ -184,8 +185,7 @@ export const teamMembers = [
       "Conquer the Great Wall of China, frolic in the Swiss Alps, and mingle with the wildlife in the Galapagos Islands!",
     travelTip: "Knowing a few local phrases helps a lot!",
     mailto: "mailto:mail@iskytravels.com",
-    photo:
-      ap,
+    photo: ap,
   },
   {
     id: 3,
@@ -202,38 +202,115 @@ export const teamMembers = [
     travelTip:
       "A little sprinkle of advance planning and booking magic goes a long way!",
     mailto: "mailto:mail@iskytravels.com",
-    photo:
-      vk,
+    photo: vk,
   },
 ];
 
 export const galleryImages = [
-  { src: "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 1" },
-  { src: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 2" },
-  { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 3" },
-  { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 4" },
-  { src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 5" },
-  { src: "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 6" },
-  { src: "https://images.unsplash.com/photo-1440778303588-435521a205bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 7" },
-  { src: "https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 8" },
-  { src: "https://images.unsplash.com/photo-1553342385-111fd6bc6ab3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 9" },
-  { src: "https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 10" },
-  { src: "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 11" },
-  { src: "https://images.unsplash.com/photo-1556276797-5086e6b45ff9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 12" },
-  { src: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 13" },
-  { src: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 14" },
-  { src: "https://plus.unsplash.com/premium_photo-1727193170694-4a759aa117dd?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 15" },
-  { src: "https://images.unsplash.com/photo-1514896856000-91cb6de818e0?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 16" },
-  { src: "https://images.unsplash.com/photo-1554357345-187a92a9eeab?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 17" },
-  { src: "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 18" },
-  { src: "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 19" },
-  { src: "https://images.unsplash.com/photo-1511135570219-bbad9a02f103?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 20" },
-  { src: "https://images.unsplash.com/photo-1415226556993-1404e0c6e727?q=80&w=1959&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 21" },
-  { src: "https://plus.unsplash.com/premium_photo-1727193170814-415fac3f3ca4?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 22" },
-  { src: "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 23" },
-  { src: "https://images.unsplash.com/photo-1523980077198-60824a7b2148?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 24" },
-  { src: "https://images.unsplash.com/photo-1552301726-570d51466ae2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 25" },
-  { src: "https://images.unsplash.com/photo-1561969310-fa2e856250ba?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 26" },
+  {
+    src: "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 1",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 2",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 3",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 4",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 5",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 6",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1440778303588-435521a205bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 7",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 8",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1553342385-111fd6bc6ab3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 9",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 10",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 11",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1556276797-5086e6b45ff9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 12",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 13",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 14",
+  },
+  {
+    src: "https://plus.unsplash.com/premium_photo-1727193170694-4a759aa117dd?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 15",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1514896856000-91cb6de818e0?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 16",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1554357345-187a92a9eeab?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 17",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 18",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 19",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1511135570219-bbad9a02f103?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 20",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1415226556993-1404e0c6e727?q=80&w=1959&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 21",
+  },
+  {
+    src: "https://plus.unsplash.com/premium_photo-1727193170814-415fac3f3ca4?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 22",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 23",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1523980077198-60824a7b2148?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 24",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1552301726-570d51466ae2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 25",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1561969310-fa2e856250ba?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Image 26",
+  },
 ];
 
 export const caseStudies = [
@@ -366,5 +443,115 @@ export const caseStudies = [
         imgName: "Starling murmurations Somerset, U.K.",
       },
     ],
+  },
+];
+
+export const termsAndCondition = [
+  {
+    id: "1",
+    heading: "CONTRACT",
+    details:
+      "<div>Our bookings are tailored to your needs and are subject to availability.<br/></br> A binding contract is formed when we issue a booking confirmation after receiving your payment.</div>",
+  },
+  {
+    id: "2",
+    heading: "PRICE AND PAYMENT",
+    details:
+      "<div>Prices will be confirmed before booking. Payments can be made in AED, USD, or other currencies. <br/><br/> A deposit may be required. Full payment is due 12 weeks before departure. If booking within 12 weeks of departure, full payment is required at booking.</div>",
+  },
+  {
+    id: "3",
+    heading: "INSURANCE",
+    details:
+      "<div>You must have comprehensive travel insurance covering cancellation, health, and other travel-related issues.</div>",
+  },
+  {
+    id: "4",
+    heading: "PASSPORTS, VISAS, AND HEALTH FORMALITIES",
+    details:
+      "<div>Ensure your passport is valid for at least 6 months after your return. Obtain necessary visas and comply with health requirements.</div>",
+  },
+  {
+    id: "5",
+    heading: "INFORMATION",
+    details:
+      "<div>We strive to provide accurate information but reserve the right to make changes.</div>",
+  },
+  {
+    id: "6",
+    heading: "AMENDMENT, TRANSFERS, AND CANCELLATION BY YOU",
+    details:
+      "<div>Requests for changes or cancellations must be in writing. Amendments may incur a fee. Cancellation charges depend on the notice period.</div>",
+  },
+  {
+    id: "7",
+    heading: "AMENDMENTS AND CANCELLATION BY US",
+    details:
+      "<div>We reserve the right to make changes or cancel bookings if necessary.</div>",
+  },
+  {
+    id: "8",
+    heading: "PERFORMANCE OF PACKAGE",
+    details:
+      "<div>We aim to deliver the package as described but may make changes if required.</div>",
+  },
+  {
+    id: "9",
+    heading:
+      "OUR LIABILITY TO YOU: PRICE REDUCTION AND COMPENSATION FOR DAMAGES",
+    details:
+      "<div>We are liable for any issues caused by our negligence.</div>",
+  },
+  {
+    id: "10",
+    heading: "ASSISTANCE",
+    details: "<div>We provide assistance during your trip.</div>",
+  },
+  {
+    id: "11",
+    heading: "FLIGHTS",
+    details:
+      "<div>Flight details will be provided with your booking confirmation.</div>",
+  },
+  {
+    id: "12",
+    heading: "IF YOU HAVE A COMPLAINT",
+    details:
+      "<div>Contact us immediately if you have any issues during your trip.</div>",
+  },
+  {
+    id: "13",
+    heading: "SPECIAL REQUESTS",
+    details:
+      "<div>We will try to accommodate special requests but cannot guarantee them.</div>",
+  },
+  {
+    id: "14",
+    heading: "EXCURSIONS AND ACTIVITIES",
+    details:
+      "<div>Excursions and activities are subject to availability and may change.</div>",
+  },
+  {
+    id: "15",
+    heading: "DATA PROTECTION",
+    details:
+      "<div>We protect your personal data in accordance with our Privacy Policy.</div>",
+  },
+  {
+    id: "16",
+    heading: "JURISDICTION",
+    details:
+      "<div>These terms are governed by the laws of the United Arab Emirates.</div>",
+  },
+  {
+    id: "17",
+    heading: "DOCUMENTATION",
+    details: "<div>Ensure you have all necessary travel documents.</div>",
+  },
+  {
+    id: "18",
+    heading: "CONTACT US",
+    details:
+      "<div>For any inquiries, contact us at <a href='/'><strong className='underline hover:no-underline'>www.iskytravel.com</strong></a></div>",
   },
 ];
