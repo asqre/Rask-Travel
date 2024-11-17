@@ -31,10 +31,10 @@ const Footer = () => {
         <div className="flex flex-row justify-between">
           <div className="footer-left-column">
             <h3>
-              <a href="/love">What we Love</a>
+              <Link to="/love">What we Love</Link>
             </h3>
             <h3>
-              <a href="/terms">Terms &amp; Conditions</a>
+              <Link to="/terms">Terms &amp; Conditions</Link>
             </h3>
           </div>
 
