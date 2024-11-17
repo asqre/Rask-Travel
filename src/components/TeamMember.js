@@ -6,7 +6,7 @@ const TeamMember = ({ member }) => {
     <div className="flex flex-col lg:flex-row justify-between lg:px-[30px]">
       <img
         src={member.photo}
-        className="h-auto w-full lg:w-[340px]"
+        className="h-auto w-full lg:w-[340px] object-contain"
         alt="team members"
       />
 

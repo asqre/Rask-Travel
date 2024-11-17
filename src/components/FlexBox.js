@@ -11,11 +11,11 @@ const FlexBox = ({ images }) => {
             className="w-full h-auto object-contain"
           />
 
-          <div className="absolute inset-0 bg-white bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          {/* <div className="absolute inset-0 bg-white bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <span className="text-black capitalize text-lg font-semibold">
               {image.alt}
             </span>
-          </div>
+          </div> */}
         </div>
       ))}
     </div>

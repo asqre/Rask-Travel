@@ -1,31 +1,7 @@
-import img1 from "../assets/images/buyPics/img1.jpg";
-import img2 from "../assets/images/buyPics/img2.jpg";
-import img3 from "../assets/images/buyPics/img3.jpg";
-import img4 from "../assets/images/buyPics/img4.jpg";
-import img5 from "../assets/images/buyPics/img5.jpg";
-import img6 from "../assets/images/buyPics/img6.jpg";
-import img7 from "../assets/images/buyPics/img7.jpg";
-import img8 from "../assets/images/buyPics/img8.jpg";
-import img9 from "../assets/images/buyPics/img9.jpg";
-import img10 from "../assets/images/buyPics/img10.jpg";
-import img11 from "../assets/images/buyPics/img11.jpg";
-import img12 from "../assets/images/buyPics/img12.jpg";
-import img13 from "../assets/images/buyPics/img13.jpg";
-import img14 from "../assets/images/buyPics/img14.jpg";
-import img15 from "../assets/images/buyPics/img15.jpg";
-import img16 from "../assets/images/buyPics/img16.jpg";
-import img17 from "../assets/images/buyPics/img17.jpg";
-import img18 from "../assets/images/buyPics/img18.jpg";
-import img19 from "../assets/images/buyPics/img19.jpg";
-import img20 from "../assets/images/buyPics/img20.jpg";
-import img21 from "../assets/images/buyPics/img21.jpg";
-import img22 from "../assets/images/buyPics/img22.jpg";
-import img23 from "../assets/images/buyPics/img23.jpg";
-import img24 from "../assets/images/buyPics/img24.jpg";
-import img25 from "../assets/images/buyPics/img25.jpg";
-import img26 from "../assets/images/buyPics/img26.jpg";
-import img27 from "../assets/images/buyPics/img27.jpg";
 import Logo from "../components/Logo";
+import pp from "../assets/team/PP.jpg"
+import ap from "../assets/team/AP.jpg"
+import vk from "../assets/team/VK.jpg"
 
 export const navItems = [
   {
@@ -41,12 +17,12 @@ export const navItems = [
   {
     name: <Logo />,
     path: "/",
-    backgroundImage: "https://rasktravel.com/assets/header_home.jpg",
+    backgroundImage: "https://images.unsplash.com/photo-1545063914-a1a6ec821c88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Travel Trends",
     path: "/corporate",
-    backgroundImage: "https://rasktravel.com/assets/header_corporate.jpg",
+    backgroundImage: "https://plus.unsplash.com/premium_photo-1664304565520-b939e5d65ef7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Contact",
@@ -57,71 +33,55 @@ export const navItems = [
 
 export const loveData = [
   {
-    title: "Lefay Resort & Spa, Lago di Garda",
-    img: "https://rasktravel.com/data/assets/889eb5c0b9075d575fe41ad8f17396d8.jpg",
-    description: `Along her route, Miriam also stopped by the spectacular <strong>Lefay Resort &amp; Spa,</strong> overlooking <strong>Lake Garda</strong>.
-        The epitome of relaxed luxury and a prime spot for those who appreciate <strong>peace &amp; quiet, exquisite food, and high-quality service</strong>: 
-        particularly couples. Whilst the facilities are not brand new, they have a well-used but well-maintained charm. The property is home to an 
-        <strong>amazing spa</strong> over multiple floors. Recommended treatments include the <strong>Candle Massage</strong> and the 
-        <strong>La Luna Nel Lago</strong> (Salt Water Lake). The latter alternates between bathing in the 38°C Lake and relaxing, allowing the body 
-        to absorb minerals from the water. The food at <strong>La Limonaia</strong> restaurant deserves a shout-out with its daily changing menu 
-        full of impressive &amp; sumptuous dishes. RASK is a Preferred Partner of Lefay and has access to special rates and benefits when you book 
-        through us!`,
+    title: "Al Maha, Dubai Desert Resort",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/446987094.jpg?k=73ccc47ed177a65edc6cf9a4678d754a08466a0b98a17fe781712c435baaa4ef&o=&hp=1",
+    description: `A hidden gem in the desert, Al Maha offers a rare opportunity to experience the luxury of seclusion with its Bedouin-inspired suites, each with a private pool overlooking the dunes. Guests can enjoy desert safaris, camel rides, and falconry. It's the perfect mix of adventure and tranquility in a stunning desert setting.`,
   },
   {
-    title: "Pan Pacific London",
-    img: "https://rasktravel.com/data/assets/0a65b8b3e5fc2dcad16183b91fce0389.jpg",
-    description: `The RASK Team enjoyed an evening at <strong>Pan Pacific London</strong> this month and were all struck by the impressive property and its myriad offerings! The hotel is smack in the middle of <strong>The City </strong>steps away from<strong> Liverpool Street Station</strong>. Set in a sleek tower, inside you will find refined interiors reflecting a fusion of <strong>Asian &amp; British styles</strong>. With a strong focus on wellness, the hotel has a dedicated <strong>Sensory Wellbeing </strong>floor with a fully equipped gym,<strong> infinity pool</strong> and even a pre-treatment waiting room complete with weighted blankets to ward off anxiety. Enjoy a carefully curated cocktail in the <strong>Silverleaf Bar </strong>and dine in the <strong>Straits Kitchen</strong> for a Singaporean - Malaysian menu; don’t skip the <strong>Lobster Laksa</strong>! Whisky lovers must try <strong>Alba,</strong> their hidden bar, for an intimate drink experience with bottle-keep facilities. RASK has access to special rates at this outstanding City gem!`,
+    title: "Atlantis The Palm – Dubai",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/534061289.jpg?k=699f7488c0dbe08c1371f9dedfef5344c8ed29f9268d19f40cded5ca3665a95c&o=&hp=1",
+    description: `Atlantis is more than just a luxury resort—it's a world unto itself. Home to the famous Aquaventure Waterpark, The Lost Chambers Aquarium, and some of Dubai's most iconic dining venues (like Nobu), it offers a combination of thrills and relaxation. The resort's underwater suites, with panoramic views of marine life, are a standout feature.`,
   },
   {
-    title: "One&Only Portonovi, Montenegro",
-    img: "https://rasktravel.com/data/assets/4e251965a457833d21a14f64b56b49f1.jpg",
-    description: `Continuing the team travels, Miriam has just returned from an extensive road trip around Europe, during which she stopped by at the <strong>One&amp;Only Portonovi in Montenegro.</strong>&nbsp; The rooms are spacious and have spectacular views over <strong>Boka Bay </strong>and the <strong>mountains</strong>. A really distinctive room feature is that the bathtub turns into a day bed overlooking these<strong> tranquil views</strong>.&nbsp; The property has stunning outdoor areas and a picture-perfect selection of pools.&nbsp; A huge highlight of this hotel is the <strong>Chenot Espace Spa</strong> that combines Chinese medicine and Western technology.&nbsp; Enjoy Contemporary Japanese Fusion at <strong>Tapasake</strong> and be sure to order the <strong>tuna ceviche</strong> and <strong>black cod miso!</strong>&nbsp; Get in touch with RASK to book your Balkan retreat now with access to special rates and benefits.`,
+    title: "Zaya Nurai Island – Abu DhabiNurai",
+    img: "https://lh3.googleusercontent.com/p/AF1QipOGFuKZEIGVONvBZSbmQfBGOxy3sEakar-e5DWC=s680-w680-h510",
+    description: `Accessible by a private boat ride, Zaya Nurai Island is an exclusive and secluded island retreat. The resort offers private villas and beachfront estates with infinity pools, and each villa has direct beach access. It’s known for its intimate feel and tranquil environment, ideal for couples and families looking for privacy and relaxation in a tropical paradise.`,
   },
   {
-    title: "Lefay Resort & Spa, Lago di Garda",
-    img: "https://rasktravel.com/data/assets/889eb5c0b9075d575fe41ad8f17396d8.jpg",
-    description: `Along her route, Miriam also stopped by the spectacular <strong>Lefay Resort &amp; Spa,</strong> overlooking <strong>Lake Garda</strong>.
-        The epitome of relaxed luxury and a prime spot for those who appreciate <strong>peace &amp; quiet, exquisite food, and high-quality service</strong>: 
-        particularly couples. Whilst the facilities are not brand new, they have a well-used but well-maintained charm. The property is home to an 
-        <strong>amazing spa</strong> over multiple floors. Recommended treatments include the <strong>Candle Massage</strong> and the 
-        <strong>La Luna Nel Lago</strong> (Salt Water Lake). The latter alternates between bathing in the 38°C Lake and relaxing, allowing the body 
-        to absorb minerals from the water. The food at <strong>La Limonaia</strong> restaurant deserves a shout-out with its daily changing menu 
-        full of impressive &amp; sumptuous dishes. RASK is a Preferred Partner of Lefay and has access to special rates and benefits when you book 
-        through us!`,
+    title: "Bulgari Resort Dubai – Dubai",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/577180149.jpg?k=2c7290e06152ab82a4338b255f767c038399d2bf9fcc1f0cc9fa8d3d7c1d0113&o=&hp=1",
+    description: `Located on a private island, this Bulgari-branded resort combines Italian design with Arabian influences. The stunning marina, private beach, world-class dining, and the signature Bulgari Spa make it an ultra-luxurious and highly private retreat. Its sophisticated design and exclusivity set it apart as one of Dubai's top luxury destinations.`,
   },
   {
-    title: "Pan Pacific London",
-    img: "https://rasktravel.com/data/assets/0a65b8b3e5fc2dcad16183b91fce0389.jpg",
-    description: `The RASK Team enjoyed an evening at <strong>Pan Pacific London</strong> this month and were all struck by the impressive property and its myriad offerings! The hotel is smack in the middle of <strong>The City </strong>steps away from<strong> Liverpool Street Station</strong>. Set in a sleek tower, inside you will find refined interiors reflecting a fusion of <strong>Asian &amp; British styles</strong>. With a strong focus on wellness, the hotel has a dedicated <strong>Sensory Wellbeing </strong>floor with a fully equipped gym,<strong> infinity pool</strong> and even a pre-treatment waiting room complete with weighted blankets to ward off anxiety. Enjoy a carefully curated cocktail in the <strong>Silverleaf Bar </strong>and dine in the <strong>Straits Kitchen</strong> for a Singaporean - Malaysian menu; don’t skip the <strong>Lobster Laksa</strong>! Whisky lovers must try <strong>Alba,</strong> their hidden bar, for an intimate drink experience with bottle-keep facilities. RASK has access to special rates at this outstanding City gem!`,
+    title: "The Oberoi Beach Resort, Al Zorah",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377063901.jpg?k=c88f0ee32053d612400caaf2e798ccda79f4004e1a750f728d1cdb490018d804&o=&hp=1",
+    description: `This eco-conscious resort is set in a lush, green mangrove forest and offers an immersive nature experience. The resort’s contemporary design integrates perfectly with its natural surroundings. Guests can enjoy kayaking, stand-up paddleboarding, and bird watching, while the wellness center offers Ayurvedic treatments for rejuvenation.`,
   },
   {
-    title: "One&Only Portonovi, Montenegro",
-    img: "https://rasktravel.com/data/assets/4e251965a457833d21a14f64b56b49f1.jpg",
-    description: `Continuing the team travels, Miriam has just returned from an extensive road trip around Europe, during which she stopped by at the <strong>One&amp;Only Portonovi in Montenegro.</strong>&nbsp; The rooms are spacious and have spectacular views over <strong>Boka Bay </strong>and the <strong>mountains</strong>. A really distinctive room feature is that the bathtub turns into a day bed overlooking these<strong> tranquil views</strong>.&nbsp; The property has stunning outdoor areas and a picture-perfect selection of pools.&nbsp; A huge highlight of this hotel is the <strong>Chenot Espace Spa</strong> that combines Chinese medicine and Western technology.&nbsp; Enjoy Contemporary Japanese Fusion at <strong>Tapasake</strong> and be sure to order the <strong>tuna ceviche</strong> and <strong>black cod miso!</strong>&nbsp; Get in touch with RASK to book your Balkan retreat now with access to special rates and benefits.`,
+    title: "Qasr Al Sarab Desert Resort by Anantara",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288006826.jpg?k=c134b9048e122264eaf9abdfe49ea6b85a2b70dfdc967402518235de39cca673&o=&hp=1",
+    description: `This remote desert resort is a dream for those seeking solitude in one of the world’s most expansive deserts. The resort is built to resemble a royal Arabian palace and offers spectacular views of the dunes. Guests can enjoy camel treks, dune bashing, or simply relax in the opulent rooms with desert views. It’s a unique blend of luxury and adventure.`,
   },
   {
-    title: "Lefay Resort & Spa, Lago di Garda",
-    img: "https://rasktravel.com/data/assets/889eb5c0b9075d575fe41ad8f17396d8.jpg",
-    description: `Along her route, Miriam also stopped by the spectacular <strong>Lefay Resort &amp; Spa,</strong> overlooking <strong>Lake Garda</strong>.
-        The epitome of relaxed luxury and a prime spot for those who appreciate <strong>peace &amp; quiet, exquisite food, and high-quality service</strong>: 
-        particularly couples. Whilst the facilities are not brand new, they have a well-used but well-maintained charm. The property is home to an 
-        <strong>amazing spa</strong> over multiple floors. Recommended treatments include the <strong>Candle Massage</strong> and the 
-        <strong>La Luna Nel Lago</strong> (Salt Water Lake). The latter alternates between bathing in the 38°C Lake and relaxing, allowing the body 
-        to absorb minerals from the water. The food at <strong>La Limonaia</strong> restaurant deserves a shout-out with its daily changing menu 
-        full of impressive &amp; sumptuous dishes. RASK is a Preferred Partner of Lefay and has access to special rates and benefits when you book 
-        through us!`,
+    title: "Palazzo Versace Dubai – Dubai",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/108976001.jpg?k=e10c2783333411c7ce63f0307628cb0db3ac9818582275e25d0d756a040df674&o=&hp=1",
+    description: `Designed in collaboration with the iconic Italian fashion house, Versace, the hotel is a masterpiece of lavish Italian-style interiors, featuring intricate mosaics, marble floors, and opulent fabrics. It’s a fashion lover’s paradise and offers high-end dining and elegant accommodation with an unmistakably glamorous flair.`,
   },
   {
-    title: "Pan Pacific London",
-    img: "https://rasktravel.com/data/assets/0a65b8b3e5fc2dcad16183b91fce0389.jpg",
-    description: `The RASK Team enjoyed an evening at <strong>Pan Pacific London</strong> this month and were all struck by the impressive property and its myriad offerings! The hotel is smack in the middle of <strong>The City </strong>steps away from<strong> Liverpool Street Station</strong>. Set in a sleek tower, inside you will find refined interiors reflecting a fusion of <strong>Asian &amp; British styles</strong>. With a strong focus on wellness, the hotel has a dedicated <strong>Sensory Wellbeing </strong>floor with a fully equipped gym,<strong> infinity pool</strong> and even a pre-treatment waiting room complete with weighted blankets to ward off anxiety. Enjoy a carefully curated cocktail in the <strong>Silverleaf Bar </strong>and dine in the <strong>Straits Kitchen</strong> for a Singaporean - Malaysian menu; don’t skip the <strong>Lobster Laksa</strong>! Whisky lovers must try <strong>Alba,</strong> their hidden bar, for an intimate drink experience with bottle-keep facilities. RASK has access to special rates at this outstanding City gem!`,
+    title: "Al Naseem – Madinat Jumeirah – Dubai",
+    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/457389536.jpg?k=1b5b93930a67d2372178da9df3c090ec47fb1f5622f5664dde18c4362f31b355&o=",
+    description: `Al Naseem, part of the sprawling Madinat Jumeirah Resort, offers a contemporary twist on traditional Arabian design. The resort's distinctive feature is its 2 km of private beaches and direct access to the Madinat's canal waterways. Its location gives guests a sense of being in a traditional Arabian souk while enjoying modern luxury.`,
   },
-  {
-    title: "One&Only Portonovi, Montenegro",
-    img: "https://rasktravel.com/data/assets/4e251965a457833d21a14f64b56b49f1.jpg",
-    description: `Continuing the team travels, Miriam has just returned from an extensive road trip around Europe, during which she stopped by at the <strong>One&amp;Only Portonovi in Montenegro.</strong>&nbsp; The rooms are spacious and have spectacular views over <strong>Boka Bay </strong>and the <strong>mountains</strong>. A really distinctive room feature is that the bathtub turns into a day bed overlooking these<strong> tranquil views</strong>.&nbsp; The property has stunning outdoor areas and a picture-perfect selection of pools.&nbsp; A huge highlight of this hotel is the <strong>Chenot Espace Spa</strong> that combines Chinese medicine and Western technology.&nbsp; Enjoy Contemporary Japanese Fusion at <strong>Tapasake</strong> and be sure to order the <strong>tuna ceviche</strong> and <strong>black cod miso!</strong>&nbsp; Get in touch with RASK to book your Balkan retreat now with access to special rates and benefits.`,
-  },
+  // {
+  //   title: "Anantara Sir Bani Yas Island Resort – Abu Dhabi",
+  //   img: "https://rasktravel.com/data/assets/4e251965a457833d21a14f64b56b49f1.jpg",
+  //   description: `Located on an island that was once home to a royal hunting reserve, this resort combines luxury with a wildlife experience. Guests can go on safari through the island’s nature reserve, which is home to free-roaming Arabian oryx and gazelles. The resort offers a range of outdoor adventures and is the perfect blend of relaxation and adventure in a natural setting.`,
+  // },
+  // {
+  //   title: "The St. Regis Saadiyat Island Resort – Abu Dhabi",
+  //   img: "https://rasktravel.com/data/assets/4e251965a457833d21a14f64b56b49f1.jpg",
+  //   description: `A true beachfront haven, this resort is located on Saadiyat Island, famous for its pristine beaches and proximity to cultural landmarks like the Louvre Abu Dhabi. The resort offers expansive rooms and villas, a fantastic golf course, and luxurious spas. It’s an ideal destination for art and culture lovers, with the island’s growing collection of museums and galleries.`,
+  // },
 ];
 
 export const testimonialData = [
@@ -207,9 +167,9 @@ export const teamMembers = [
     bucketListWishes:
       "Sardinia, Italy, and a WILD adventure in the Galapagos, Ecuador!",
     travelTip: "Pack light, because less is definitely more!",
-    mailto: "mailto:jonas@rasktravel.com?cc=miriam@rasktravel.com",
+    mailto: "mailto:mail@iskytravels.com",
     photo:
-      "https://rasktravel.com/data/assets/b261dbf58e8d1a87e5f9b9720521c4fc.jpg",
+      pp,
   },
   {
     id: 2,
@@ -223,9 +183,9 @@ export const teamMembers = [
     bucketListWishes:
       "Conquer the Great Wall of China, frolic in the Swiss Alps, and mingle with the wildlife in the Galapagos Islands!",
     travelTip: "Knowing a few local phrases helps a lot!",
-    mailto: "mailto:jonas@rasktravel.com?cc=miriam@rasktravel.com",
+    mailto: "mailto:mail@iskytravels.com",
     photo:
-      "https://rasktravel.com/data/assets/b261dbf58e8d1a87e5f9b9720521c4fc.jpg",
+      ap,
   },
   {
     id: 3,
@@ -241,40 +201,39 @@ export const teamMembers = [
       "Iceland, Switzerland – because who wouldn’t want to live like a snow-covered fairytale?",
     travelTip:
       "A little sprinkle of advance planning and booking magic goes a long way!",
-    mailto: "mailto:jonas@rasktravel.com?cc=miriam@rasktravel.com",
+    mailto: "mailto:mail@iskytravels.com",
     photo:
-      "https://rasktravel.com/data/assets/b261dbf58e8d1a87e5f9b9720521c4fc.jpg",
+      vk,
   },
 ];
 
 export const galleryImages = [
-  { src: img1, alt: "Image 1" },
-  { src: img2, alt: "Image 2" },
-  { src: img3, alt: "Image 3" },
-  { src: img4, alt: "Image 4" },
-  { src: img5, alt: "Image 5" },
-  { src: img6, alt: "Image 6" },
-  { src: img7, alt: "Image 7" },
-  { src: img8, alt: "Image 8" },
-  { src: img9, alt: "Image 9" },
-  { src: img10, alt: "Image 10" },
-  { src: img11, alt: "Image 11" },
-  { src: img12, alt: "Image 12" },
-  { src: img13, alt: "Image 13" },
-  { src: img14, alt: "Image 14" },
-  { src: img15, alt: "Image 15" },
-  { src: img16, alt: "Image 16" },
-  { src: img17, alt: "Image 17" },
-  { src: img18, alt: "Image 18" },
-  { src: img19, alt: "Image 19" },
-  { src: img20, alt: "Image 20" },
-  { src: img21, alt: "Image 21" },
-  { src: img22, alt: "Image 22" },
-  { src: img23, alt: "Image 23" },
-  { src: img24, alt: "Image 24" },
-  { src: img25, alt: "Image 25" },
-  { src: img26, alt: "Image 26" },
-  { src: img27, alt: "Image 27" },
+  { src: "https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 1" },
+  { src: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 2" },
+  { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 3" },
+  { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 4" },
+  { src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 5" },
+  { src: "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 6" },
+  { src: "https://images.unsplash.com/photo-1440778303588-435521a205bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 7" },
+  { src: "https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 8" },
+  { src: "https://images.unsplash.com/photo-1553342385-111fd6bc6ab3?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 9" },
+  { src: "https://images.unsplash.com/photo-1465188035480-cf3a60801ea5?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 10" },
+  { src: "https://images.unsplash.com/photo-1527610276295-f4c1b38decc5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 11" },
+  { src: "https://images.unsplash.com/photo-1556276797-5086e6b45ff9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 12" },
+  { src: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 13" },
+  { src: "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 14" },
+  { src: "https://plus.unsplash.com/premium_photo-1727193170694-4a759aa117dd?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 15" },
+  { src: "https://images.unsplash.com/photo-1514896856000-91cb6de818e0?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 16" },
+  { src: "https://images.unsplash.com/photo-1554357345-187a92a9eeab?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 17" },
+  { src: "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 18" },
+  { src: "https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 19" },
+  { src: "https://images.unsplash.com/photo-1511135570219-bbad9a02f103?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 20" },
+  { src: "https://images.unsplash.com/photo-1415226556993-1404e0c6e727?q=80&w=1959&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 21" },
+  { src: "https://plus.unsplash.com/premium_photo-1727193170814-415fac3f3ca4?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 22" },
+  { src: "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 23" },
+  { src: "https://images.unsplash.com/photo-1523980077198-60824a7b2148?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 24" },
+  { src: "https://images.unsplash.com/photo-1552301726-570d51466ae2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 25" },
+  { src: "https://images.unsplash.com/photo-1561969310-fa2e856250ba?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", alt: "Image 26" },
 ];
 
 export const caseStudies = [

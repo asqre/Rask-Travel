@@ -48,7 +48,7 @@ const About = () => {
           </div>
 
           <div className="flex flex-col gap-[30px] max-w-[600px] p-[35px]">
-            <h2 className="text-center">RASK TODAY</h2>
+            <h2 className="text-center">I-Sky TODAY</h2>
             <h3>
               Staying updated with the constantly evolving travel trends is
               essential at I-SKY. We are always traveling to discover new

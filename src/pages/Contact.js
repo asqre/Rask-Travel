@@ -25,11 +25,11 @@ const Contact = () => {
             rel="noreferrer"
             className="px-[80px] py-[50px] flex flex-col gap-2 text-center"
           >
-            <h1>i-sky Travel</h1>
-            <h6>9 Appold St</h6>
-            <h6>8th Floor</h6>
-            <h6>London EC2A 2AP</h6>
-            <h6>United Kingdom</h6>
+            <h1>Al Suq</h1>
+            <h6>Al Kabeer</h6>
+            <h6>Fahidi Street</h6>
+            <h6>Dubai</h6>
+            <h6>United Arab Emirate</h6>
             <a href="mailto:mail@iskytravels.com">
               <h6 className="font-bold underline">mail@iskytravels.com</h6>
             </a>

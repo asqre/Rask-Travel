@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ImLinkedin, ImFacebook2 } from "react-icons/im";
-import { FaSquareInstagram } from "react-icons/fa6";
+import { ImLinkedin } from "react-icons/im";
+import { FaSquareInstagram, FaTelegram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="flex flex-col">
           <div className="flex justify-center mb-[10px] md:hidden">
             <Link href="/contact">
-              <h3>LONDON</h3>
+              <h3>DUBAI</h3>
             </Link>
           </div>
         </div>
@@ -40,7 +40,7 @@ const Footer = () => {
 
           <div className="footer-center-column hidden md:flex">
             <h3>
-              <a href="/contact">LONDON</a>
+              <a href="/contact">DUBAI</a>
             </h3>
           </div>
 
@@ -55,13 +55,13 @@ const Footer = () => {
             </h3>
 
             <div className="flex flex-row gap-5 mt-[10px]">
-              <a href="https://www.facebook.com/rasktravel">
-                <ImFacebook2 size={18} />
+              <a href="https://t.me/iskytravel">
+                <FaTelegram size={18} />
               </a>
-              <a href="https://www.instagram.com/rasktravel/">
+              <a href="https://www.instagram.com/iskytravels/profilecard/?igsh=MTZ3ZWttYWIxMmMzZA==">
                 <FaSquareInstagram size={18} />
               </a>
-              <a href="https://www.linkedin.com/company/rask-travel/">
+              <a href="https://www.linkedin.com/company/infinite-sky-travels-llc/">
                 <ImLinkedin size={18} />
               </a>
             </div>
@@ -77,7 +77,7 @@ const Footer = () => {
             color: "var(--color-gray)",
           }}
         >
-          i-sky Travel, 9 Appold St, 8th Floor, London EC2A 2AP, United Kingdom
+          Al Suq - Al Kabeer, Fahidi Street, Dubai, United Arab Emirate
         </div>
       </div>
     </footer>
