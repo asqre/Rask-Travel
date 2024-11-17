@@ -12,7 +12,7 @@ const TermsAndCondition = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col items-center gap-[100px] mb-[50px] w-full px-[30px]">
+      <div className="flex flex-col items-center gap-[50px] mb-[50px] w-full px-[30px]">
         <h2>TERMS & CONDITIONS</h2>
 
         <div className="flex flex-col md:flex-row gap-10 justify-between w-full">
@@ -21,7 +21,7 @@ const TermsAndCondition = () => {
               return (
                 <a key={ind} onClick={() => jumpTo(term.id)}>
                   <h3
-                    className="text-[12px] font-bold underline hover:no-underline cursor-pointer"
+                    className="text-[12px] font-bold underline hover:no-underline cursor-pointer text-left"
                     style={{
                       lineHeight: "1.7",
                     }}
