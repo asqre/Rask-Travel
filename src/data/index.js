@@ -17,6 +17,16 @@ import oberoi from "../assets/images/loveData/Oberoi.jpg";
 import palazzo from "../assets/images/loveData/Palazzo.jpg";
 import qasr from "../assets/images/loveData/Qasr.jpg";
 import zaya from "../assets/images/loveData/Zaya.jpg";
+import athens from "../assets/images/ourwork/Athens.jpeg";
+import Kyoto from "../assets/images/ourwork/Kyoto.jpeg";
+import Botswana from "../assets/images/ourwork/Bostawana.jpeg";
+import burjAiArab from "../assets/images/ourwork/BurjAlArab.avif";
+import neckerIsland from "../assets/images/ourwork/NeckerIsland.jpeg";
+import Explora from "../assets/images/ourwork/Explora.jpeg";
+import BalletOf from "../assets/images/ourwork/BalletOf.jpeg";
+import Penguin from "../assets/images/ourwork/PenguinParade.jpeg";
+import blackSun from "../assets/images/ourwork/BlackSun.jpeg";
+import biomul from "../assets/images/ourwork/Biomul.jpeg";
 
 export const navItems = [
   {
@@ -382,15 +392,15 @@ export const caseStudies = [
     //   "<div><strong>Who</strong><br>b:hip Global, an international company helping people be the best versions of themselves, within a global community.<br><br><strong>What</strong><br>RASK organized a unique incentive trip for b:hip Global, coordinating travel for over 150 of their members to the stunning Conrad Maldives. Services included personalized itineraries, on-the-ground logistics, and exclusive experiences designed to reward high-performing individuals within the company.</div>",
     images: [
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: athens,
         imgName: "Athens Riveria, Greece",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: Kyoto,
         imgName: "Kyoto, Japan",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: Botswana,
         imgName: "Botswana & Namibia",
       },
     ],
@@ -403,15 +413,15 @@ export const caseStudies = [
     //   "<div><strong>Who</strong><br>FiveCurrents, a premier creator and producer of live content and ceremonies.<br><br><strong>What</strong><br>Following RASK’s successful partnership with FiveCurrents during the 2015 European Games, we were brought back for a second collaboration on an event of even bigger scale. Our team worked 24/7 handling hundreds of flight tickets, dealing with last minutes requests and multiple changes as required by the team. Additionally, we contracted long and short stay rates at several 5* and 4* hotels in town on behalf of our client, before, during and after the event.</div>",
     images: [
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: burjAiArab,
         imgName: "Burj Al Arab, Dubai, UAE",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: neckerIsland,
         imgName: "Necker Island, British Virgin Islands",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: Explora,
         imgName: "Explora El Chaltén, Patagonia, Argentina",
       },
     ],
@@ -424,15 +434,15 @@ export const caseStudies = [
     //   "<div><strong>Who</strong><br>Galerie Mikael Andersen, Denmark’s most respected art gallery, exhibiting Danish and International contemporary art.<br><br><strong>What</strong><br>Presented at the Musée National d'Art Moderne and attended by royalty and members of high society alike, the logistics involved in this ultra-exclusive vernissage needed to be handled meticulously, with the utmost care and attention to detail. Furthermore, choosing the right hotel for the VIPs in attendance was critical and this is where RASK’s knowledge of and partnership with luxury brands was invaluable to the client.</div>",
     images: [
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: BalletOf,
         imgName: "Ballet of Japanese cranes Hokkaido, Japan",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: Penguin,
         imgName: "Penguin Parade Phillip Island, Australia",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: blackSun,
         imgName: "“Black Sun” starlings’ Wadden Sea, Denmark",
       },
     ],
@@ -445,7 +455,7 @@ export const caseStudies = [
     //   "<div><strong>Who</strong><br>Eco-Age x Camera Nazionale della Moda Italiana.<br><br><strong>What</strong><br>An event that once per year brings together some of the biggest names in media, fashion and design, to promote and celebrate sustainable fashion. Naturally there is a high number of VIPs attending the event, most of whom are handled by RASK. We ensure they travel as comfortably as possible, keeping within the budget and sustainability guidelines, and handle their airport transfers, VIP assistance, and any other special requirements.</div>",
     images: [
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: biomul,
         imgName: "Bioluminescent plankton Vero Beach, Florida",
       },
       {
