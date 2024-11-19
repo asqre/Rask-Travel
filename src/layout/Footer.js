@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ImLinkedin } from "react-icons/im";
-import { FaSquareInstagram, FaTelegram } from "react-icons/fa6";
+import { FaSquareInstagram, FaSquareWhatsapp, FaTelegram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="flex flex-row justify-between">
           <div className="footer-left-column">
             <h3>
-              <Link to="/love">What we Love</Link>
+              <Link to="/love">Leisure Unveiled</Link>
             </h3>
             <h3>
               <Link to="/terms">Terms &amp; Conditions</Link>
@@ -75,6 +75,13 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <ImLinkedin size={18} />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/infinite-sky-travels-llc/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaSquareWhatsapp size={18} />
               </a>
             </div>
           </div>

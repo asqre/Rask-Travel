@@ -1,4 +1,5 @@
 import React from "react";
+import gift from "../assets/images/gift.jpg";
 
 const GiftOfTravel = () => {
   return (
@@ -17,21 +18,22 @@ const GiftOfTravel = () => {
           }}
         />
 
-        <div className="px-[80px] py-[50px] flex flex-col gap-5">
+        <div className="px-[80px] py-[50px] flex flex-col gap-5 bg-[#FFFDD0]">
           <h2
             style={{
               textAlign: "center",
               fontWeight: "500",
             }}
           >
-            THE GIFT OF TRAVEL
+            TRAVEL - DE - GIFT
           </h2>
 
           <div className="flex flex-col items-center md:flex-row md:justify-between gap-5">
             <h3>
-              A Perfect gift for a perfect occassion. I-sky travel voucher for
-              your friends & family. As low as AED 1000 and infinite travel to
-              choose from....
+              A Perfect gift for a perfect occassion.{" "}
+              <span className="italic">I-sky travels</span> voucher for your
+              friends & family. As low as AED 1000 and infinite travel to choose
+              from....
               <br />
               <br />
               Email{" "}
@@ -44,9 +46,9 @@ const GiftOfTravel = () => {
             </h3>
 
             <img
-              src="https://rasktravel.com/assets/giftbox.jpg"
+              src={gift}
               alt="gift"
-              className="w-[170px] h-[170px]"
+              className="w-[170px] h-[170px] object-contain"
             />
           </div>
         </div>

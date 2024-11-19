@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
       }}
     >
       <Navbar />
-      <main className={`flex-grow mt-[72px]`}>{children}</main>
+      <main className={`flex-grow`}>{children}</main>
       <Footer />
     </div>
   );

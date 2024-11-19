@@ -45,7 +45,7 @@ const Home = () => {
   var settings2 = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -60,7 +60,7 @@ const Home = () => {
     <Layout>
       <div className="home-hero-container px-[15px] mt-[100px]">
         <h4 className="mx-auto w-full max-w-[640px]" style={{}}>
-          I-SKY Travels is an international luxury travel agency headquartered
+        <span className="italic">I-sky travels</span> is an international luxury travel agency headquartered
           in Dubai, United Arab Emirates. We specialize in tailor-made travel
           arrangements across the globe, for private clientele & respective
           families.
@@ -77,7 +77,7 @@ const Home = () => {
             <h3 className="italic font-bold underline">Leisure</h3>
           </Link>
           <Link to="/corporate" className="btn btn-secondary">
-            <h3 className="italic font-bold underline">Corporate</h3>
+            <h3 className="italic font-bold underline">Leisure & Travel Trends 2025</h3>
           </Link>
         </div>
       </div>
@@ -88,7 +88,7 @@ const Home = () => {
             textAlign: "center",
           }}
         >
-          THIS MONTH WE LOVE...
+          LEISURE UNVEILED
         </h2>
 
         <div className="w-full m-auto mb-[100px] mt-[50px]">
@@ -103,7 +103,7 @@ const Home = () => {
               to="/love"
               className="flex flex-row items-center justify-center gap-2"
             >
-              <h3 className="font-semibold focus:underline">We also love</h3>
+              <h3 className="font-semibold focus:underline">Leisure Unveiled</h3>
               <FaArrowRightLong color="var(--color-primary)" />
             </Link>
           </div>
