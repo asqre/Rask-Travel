@@ -12,15 +12,16 @@ const LeisureTravel = () => {
           elephant in nature. Take in the view of a place you never imagined
           you'd see. Fly twelve hours to dine at that Michelin star restaurant.
           Visit a remote indigenous tribe and step back in time. Return to your
-          favorite city. Watch an island sunset… or let I-sky inspire you.
+          favorite city. Watch an island sunset… or let{" "}
+          <span className="italic">I-SKY</span> inspire you.
           <br />
           <br />
-          At I-sky we believe that travel is first and foremost about feelings
-          and emotions. Our priority is to allow you to fully immerse in your
-          travel experience from the moment you first dream of it until long
-          after you've returned home. We will customize the journey specifically
-          for you and will take care of all the small details, from start to
-          finish.
+          At <span className="italic">I-SKY</span> we believe that travel is
+          first and foremost about feelings and emotions. Our priority is to
+          allow you to fully immerse in your travel experience from the moment
+          you first dream of it until long after you've returned home. We will
+          customize the journey specifically for you and will take care of all
+          the small details, from start to finish.
           <br />
           <br />
           Let us create the trip and we'll let you create the memories.

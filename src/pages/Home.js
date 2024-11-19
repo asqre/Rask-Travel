@@ -76,7 +76,7 @@ const Home = () => {
           <Link to="/leisure" className="btn btn-primary">
             <h3 className="italic font-bold underline">Leisure</h3>
           </Link>
-          <Link to="/corporate" className="btn btn-secondary">
+          <Link to="/travel-trends" className="btn btn-secondary">
             <h3 className="italic font-bold underline">Leisure & Travel Trends 2025</h3>
           </Link>
         </div>

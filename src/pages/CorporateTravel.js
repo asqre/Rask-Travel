@@ -29,14 +29,15 @@ const CorporateTravel = () => {
     <Layout>
       <div className="flex flex-col items-center gap-[100px] my-[50px] w-full">
         <h4 className="max-w-[640px] px-[30px]">
-          As we step into 2025, I-SKY is at the forefront of curating
-          unparalleled travel experiences. Our mission is to showcase the best
-          locations, luxurious properties, meticulously crafted itineraries, and
-          trending hotspots for our discerning clientele. With a finger on the
-          pulse of global travel trends, we ensure that every journey is not
-          just a trip, but a memorable adventure. From the serene beaches of the
-          Seychelles to the cultural richness of Kyoto, I-SKY is dedicated to
-          providing the ultimate in leisure and luxury travel, ensuring you
+          As we step into 2025, <span className="italic">I-SKY</span> is at the
+          forefront of curating unparalleled travel experiences. Our mission is
+          to showcase the best locations, luxurious properties, meticulously
+          crafted itineraries, and trending hotspots for our discerning
+          clientele. With a finger on the pulse of global travel trends, we
+          ensure that every journey is not just a trip, but a memorable
+          adventure. From the serene beaches of the Seychelles to the cultural
+          richness of Kyoto, <span className="italic">I-SKY</span> is dedicated
+          to providing the ultimate in leisure and luxury travel, ensuring you
           experience the very best the year has to offer.
           <br />
           <br />
@@ -48,7 +49,7 @@ const CorporateTravel = () => {
           </a>
         </h4>
 
-        <h2 className="mb-[-50px] px-5">Our Work</h2>
+        <h2 className="mb-[-50px] px-5">Create Your Own Story....</h2>
 
         <div className="flex flex-row justify-between gap-[10px] sm:gap-[50px] sm:px-[30px]">
           <div className="flex flex-col gap-[15px] max-w-[120px] text-left">

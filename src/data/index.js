@@ -2,6 +2,21 @@ import Logo from "../components/Logo";
 import pp from "../assets/team/PP.jpg";
 import ap from "../assets/team/AP.jpg";
 import vk from "../assets/team/VK.jpg";
+import waikato from "../assets/images/ourwork/Waikato.jpeg";
+import azurmendi from "../assets/images/ourwork/Azurmendi.jpg";
+import fukuoka from "../assets/images/ourwork/Fukuoka.jpg";
+import krabi from "../assets/images/ourwork/Krabi.jpeg";
+import lebernardi from "../assets/images/ourwork/Lebernardin.jpeg";
+import neoliss from "../assets/images/ourwork/neoliss.jpg";
+import Robuchon from "../assets/images/ourwork/Robuchon.jpeg";
+import aimaha from "../assets/images/loveData/ai-maha.jpg";
+import aiNaseem from "../assets/images/loveData/Al Naseem.jpg";
+import atlantis from "../assets/images/loveData/Atlantis.jpg";
+import bulgari from "../assets/images/loveData/Bulgari.jpg";
+import oberoi from "../assets/images/loveData/Oberoi.jpg";
+import palazzo from "../assets/images/loveData/Palazzo.jpg";
+import qasr from "../assets/images/loveData/Qasr.jpg";
+import zaya from "../assets/images/loveData/Zaya.jpg";
 
 export const navItems = [
   {
@@ -21,7 +36,7 @@ export const navItems = [
   },
   {
     name: "Travel Trends",
-    path: "/corporate",
+    path: "/travel-trends",
     backgroundImage:
       "https://plus.unsplash.com/premium_photo-1664304565520-b939e5d65ef7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
@@ -35,42 +50,42 @@ export const navItems = [
 export const loveData = [
   {
     title: "Al Maha, Dubai Desert Resort",
-    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/446987094.jpg?k=73ccc47ed177a65edc6cf9a4678d754a08466a0b98a17fe781712c435baaa4ef&o=&hp=1",
+    img: aimaha,
     description: `A hidden gem in the desert, Al Maha offers a rare opportunity to experience the luxury of seclusion with its Bedouin-inspired suites, each with a private pool overlooking the dunes. Guests can enjoy desert safaris, camel rides, and falconry. It's the perfect mix of adventure and tranquility in a stunning desert setting.`,
   },
   {
     title: "Atlantis The Palm – Dubai",
-    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/534061289.jpg?k=699f7488c0dbe08c1371f9dedfef5344c8ed29f9268d19f40cded5ca3665a95c&o=&hp=1",
+    img: atlantis,
     description: `Atlantis is more than just a luxury resort—it's a world unto itself. Home to the famous Aquaventure Waterpark, The Lost Chambers Aquarium, and some of Dubai's most iconic dining venues (like Nobu), it offers a combination of thrills and relaxation. The resort's underwater suites, with panoramic views of marine life, are a standout feature.`,
   },
   {
     title: "Zaya Nurai Island – Abu DhabiNurai",
-    img: "https://lh3.googleusercontent.com/p/AF1QipOGFuKZEIGVONvBZSbmQfBGOxy3sEakar-e5DWC=s680-w680-h510",
+    img: zaya,
     description: `Accessible by a private boat ride, Zaya Nurai Island is an exclusive and secluded island retreat. The resort offers private villas and beachfront estates with infinity pools, and each villa has direct beach access. It’s known for its intimate feel and tranquil environment, ideal for couples and families looking for privacy and relaxation in a tropical paradise.`,
   },
   {
     title: "Bulgari Resort Dubai – Dubai",
-    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/577180149.jpg?k=2c7290e06152ab82a4338b255f767c038399d2bf9fcc1f0cc9fa8d3d7c1d0113&o=&hp=1",
+    img: bulgari,
     description: `Located on a private island, this Bulgari-branded resort combines Italian design with Arabian influences. The stunning marina, private beach, world-class dining, and the signature Bulgari Spa make it an ultra-luxurious and highly private retreat. Its sophisticated design and exclusivity set it apart as one of Dubai's top luxury destinations.`,
   },
   {
     title: "The Oberoi Beach Resort, Al Zorah",
-    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377063901.jpg?k=c88f0ee32053d612400caaf2e798ccda79f4004e1a750f728d1cdb490018d804&o=&hp=1",
+    img: oberoi,
     description: `This eco-conscious resort is set in a lush, green mangrove forest and offers an immersive nature experience. The resort’s contemporary design integrates perfectly with its natural surroundings. Guests can enjoy kayaking, stand-up paddleboarding, and bird watching, while the wellness center offers Ayurvedic treatments for rejuvenation.`,
   },
   {
     title: "Qasr Al Sarab Desert Resort by Anantara",
-    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288006826.jpg?k=c134b9048e122264eaf9abdfe49ea6b85a2b70dfdc967402518235de39cca673&o=&hp=1",
+    img: qasr,
     description: `This remote desert resort is a dream for those seeking solitude in one of the world’s most expansive deserts. The resort is built to resemble a royal Arabian palace and offers spectacular views of the dunes. Guests can enjoy camel treks, dune bashing, or simply relax in the opulent rooms with desert views. It’s a unique blend of luxury and adventure.`,
   },
   {
     title: "Palazzo Versace Dubai – Dubai",
-    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/108976001.jpg?k=e10c2783333411c7ce63f0307628cb0db3ac9818582275e25d0d756a040df674&o=&hp=1",
+    img: palazzo,
     description: `Designed in collaboration with the iconic Italian fashion house, Versace, the hotel is a masterpiece of lavish Italian-style interiors, featuring intricate mosaics, marble floors, and opulent fabrics. It’s a fashion lover’s paradise and offers high-end dining and elegant accommodation with an unmistakably glamorous flair.`,
   },
   {
     title: "Al Naseem – Madinat Jumeirah – Dubai",
-    img: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/457389536.jpg?k=1b5b93930a67d2372178da9df3c090ec47fb1f5622f5664dde18c4362f31b355&o=",
+    img: aiNaseem,
     description: `Al Naseem, part of the sprawling Madinat Jumeirah Resort, offers a contemporary twist on traditional Arabian design. The resort's distinctive feature is its 2 km of private beaches and direct access to the Madinat's canal waterways. Its location gives guests a sense of being in a traditional Arabian souk while enjoying modern luxury.`,
   },
   // {
@@ -158,6 +173,23 @@ export const partnersData = [
 export const teamMembers = [
   {
     id: 1,
+    initials: "A.P.",
+    name: "Asmita P.",
+    jobTitle: "Founder Member & Itinerary Expert",
+    location: "Dubai",
+    tonguesTied: "English, Hindi",
+    familyFunZones:
+      "Phuket, Paris, Amsterdam, Greece – family fun, here we come!",
+    soloEscapadeHavens: "Italy, Armenia, Bali – just me, myself, and a gelato!",
+    bucketListWishes:
+      "Iceland, Switzerland – because who wouldn’t want to live like a snow-covered fairytale?",
+    travelTip:
+      "A little sprinkle of advance planning and booking magic goes a long way!",
+    mailto: "mailto:mail@iskytravels.com",
+    photo: ap,
+  },
+  {
+    id: 2,
     initials: "P.P.",
     name: "Pawan P.",
     jobTitle: "Founder Member & COO",
@@ -172,7 +204,7 @@ export const teamMembers = [
     photo: pp,
   },
   {
-    id: 2,
+    id: 3,
     initials: "V.K.",
     name: "Vivek K.",
     jobTitle: "Financial Administrator",
@@ -183,23 +215,6 @@ export const teamMembers = [
     bucketListWishes:
       "Conquer the Great Wall of China, frolic in the Swiss Alps, and mingle with the wildlife in the Galapagos Islands!",
     travelTip: "Knowing a few local phrases helps a lot!",
-    mailto: "mailto:mail@iskytravels.com",
-    photo: ap,
-  },
-  {
-    id: 3,
-    initials: "A.P.",
-    name: "Asmita P.",
-    jobTitle: "Founder Member & Itinerary Expert",
-    location: "Dubai",
-    tonguesTied: "English, Hindi",
-    familyFunZones:
-      "Phuket, Paris, Amsterdam, Greece – family fun, here we come!",
-    soloEscapadeHavens: "Italy, Armenia, Bali – just me, myself, and a gelato!",
-    bucketListWishes:
-      "Iceland, Switzerland – because who wouldn’t want to live like a snow-covered fairytale?",
-    travelTip:
-      "A little sprinkle of advance planning and booking magic goes a long way!",
     mailto: "mailto:mail@iskytravels.com",
     photo: vk,
   },
@@ -321,19 +336,19 @@ export const caseStudies = [
     //   "<div><strong>Who</strong><br>Global Fashion Agenda, a non-profit thought leadership and advocacy organisation on fashion sustainability.<br><br><strong>What</strong><br>RASK has been involved with the Summit since 2013 and became the official hospitality partner in 2018. We deal with all elements of VIP travel from budgeting to coordinating flights, hotels, and travel logistics for over 200 guests, before and during the three-day annual event. This also includes ground transport for 400 guests during the event itself.</div>",
     images: [
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: waikato,
         imgName: "Waikato, New Zealand",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: fukuoka,
         imgName: "Fukuoka, Japan",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: neoliss,
         imgName: "Abu Dhabi, UAE",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: krabi,
         imgName: "Krabi, Thailand",
       },
     ],
@@ -346,15 +361,15 @@ export const caseStudies = [
     //   "<div><strong>Who</strong><br>An international organisation at the forefront of research, analysis and dialogue related to global security issues.<br><br><strong>What</strong><br>RASK was contracted to manage travel for over 100 VIPs travelling to Doha for this two-day event. Personalized travel solutions were provided to ambassadors, military officials, CEOs, and more. Our services on the ground during the event ensured everything ran smoothly for the client and that each individual traveller's needs were met seamlessly.</div>",
     images: [
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: azurmendi,
         imgName: "Azurmendi, Larrabetzu, Spain",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: lebernardi,
         imgName: "Le Bernardin, New York, USA",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: Robuchon,
         imgName: "3. Robuchon au Dôme, Macau, China",
       },
     ],

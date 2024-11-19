@@ -28,17 +28,17 @@ const TeamMember = ({ member }) => {
         <div className="flex flex-col lg:flex-row justify-between gap-[20px]">
           <div className="flex flex-col gap-[20px] max-w-[300px]">
             <div>
-              <h2>LOCATION</h2>
+              <h2>BASED</h2>
               <h3>{member.location}</h3>
             </div>
 
             <div>
-              <h2>TONGUES TIED</h2>
+              <h2>LANGUAGES SPOKEN</h2>
               <h3>{member.tonguesTied}</h3>
             </div>
 
             <div>
-              <h2>FAMILY FUN ZONES</h2>
+              <h2>FAMILY TRIP HOTSPOTS</h2>
               <h3>{member.familyFunZones}</h3>
             </div>
 
@@ -47,7 +47,7 @@ const TeamMember = ({ member }) => {
 
           <div className="flex flex-col gap-[20px] max-w-[300px]">
             <div>
-              <h2>BUCKET LIST WISHES</h2>
+              <h2>BUCKET LIST DREAMS</h2>
               <h3>{member.bucketListWishes}</h3>
             </div>
 
@@ -57,7 +57,7 @@ const TeamMember = ({ member }) => {
             </div>
 
             <div>
-              <h2>SOLO ESCAPADE HAVENS</h2>
+              <h2>SOLO ADVENTURE SPOTS</h2>
               <h3>{member.soloEscapadeHavens}</h3>
             </div>
           </div>
