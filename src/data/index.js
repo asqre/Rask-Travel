@@ -380,7 +380,7 @@ export const caseStudies = [
       },
       {
         img: Robuchon,
-        imgName: "3. Robuchon au Dôme, Macau, China",
+        imgName: "Robuchon au Dôme, Macau, China",
       },
     ],
   },
