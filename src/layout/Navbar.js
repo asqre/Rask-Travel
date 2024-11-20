@@ -40,7 +40,7 @@ const Navbar = () => {
     <div
       id="nav-container"
       className={`relative bg-cover bg-center w-full ${
-        hasBackgroundImage ? "h-[685px]" : ""
+        hasBackgroundImage ? "h-[785px]" : ""
       }`}
       style={{
         ...navContainerStyle,

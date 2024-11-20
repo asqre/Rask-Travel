@@ -12,15 +12,15 @@ const Love = () => {
 
   return (
     <Layout>
-      <div className="flex flex-col items-center gap-[100px] my-[50px] w-full px-[30px]">
-        <h4 className="max-w-[640px]">
+      <div className="flex flex-col items-center gap-[50px] my-[50px] w-full px-[30px]">
+        <h4 className="max-w-[640px] my-[60px]">
           With so many fabulous travel products out there, it can be hard
           finding just the right one. We’ve therefore decided to share what’s
           trending at RASK, month by month; what we love, are inspired by, and
           can’t wait for you to try.
         </h4>
 
-        <div className="w-full m-auto mb-[100px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="w-full m-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {loveData.slice(0, visibleItems).map((item, ind) => (
             <LoveComponent {...item} key={ind} />
           ))}

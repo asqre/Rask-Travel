@@ -2,13 +2,13 @@ import Logo from "../components/Logo";
 import pp from "../assets/team/PP.jpg";
 import ap from "../assets/team/AP.jpg";
 import vk from "../assets/team/VK.jpg";
-import waikato from "../assets/images/ourwork/Waikato.jpeg";
+import waikato from "../assets/images/ourwork/Waikato.png";
 import azurmendi from "../assets/images/ourwork/Azurmendi.jpg";
 import fukuoka from "../assets/images/ourwork/Fukuoka.jpg";
-import krabi from "../assets/images/ourwork/Krabi.jpeg";
-import lebernardi from "../assets/images/ourwork/Lebernardin.jpeg";
+import krabi from "../assets/images/ourwork/KRABI.png";
+import lebernardi from "../assets/images/ourwork/Lebernardin.png";
 import neoliss from "../assets/images/ourwork/neoliss.jpg";
-import Robuchon from "../assets/images/ourwork/Robuchon.jpeg";
+import Robuchon from "../assets/images/ourwork/Robuchon.png";
 import aimaha from "../assets/images/loveData/ai-maha.jpg";
 import aiNaseem from "../assets/images/loveData/Al Naseem.jpg";
 import atlantis from "../assets/images/loveData/Atlantis.jpg";
@@ -17,22 +17,22 @@ import oberoi from "../assets/images/loveData/Oberoi.jpg";
 import palazzo from "../assets/images/loveData/Palazzo.jpg";
 import qasr from "../assets/images/loveData/Qasr.jpg";
 import zaya from "../assets/images/loveData/Zaya.jpg";
-import athens from "../assets/images/ourwork/Athens.jpeg";
-import Kyoto from "../assets/images/ourwork/Kyoto.jpeg";
-import Botswana from "../assets/images/ourwork/Bostawana.jpeg";
+import athens from "../assets/images/ourwork/Athens.png";
+import Kyoto from "../assets/images/ourwork/Kyoto.png";
+import Botswana from "../assets/images/ourwork/Botswana N.png";
 import burjAiArab from "../assets/images/ourwork/BurjAlArab.avif";
-import neckerIsland from "../assets/images/ourwork/NeckerIsland.jpeg";
-import Explora from "../assets/images/ourwork/Explora.jpeg";
-import BalletOf from "../assets/images/ourwork/BalletOf.jpeg";
-import Penguin from "../assets/images/ourwork/PenguinParade.jpeg";
-import blackSun from "../assets/images/ourwork/BlackSun.jpeg";
-import biomul from "../assets/images/ourwork/Biomul.jpeg";
+import neckerIsland from "../assets/images/ourwork/Necker Island.png";
+import Explora from "../assets/images/ourwork/Explora.png";
+import BalletOf from "../assets/images/ourwork/Ballet of.png";
+import Penguin from "../assets/images/ourwork/Penguin Parade.png";
+import blackSun from "../assets/images/ourwork/Black Sun.png";
+import biomul from "../assets/images/ourwork/Bioluminescent.png";
 
 export const navItems = [
   {
     name: "About",
     path: "/about",
-    backgroundImage: "https://rasktravel.com/assets/header_about.jpg",
+    backgroundImage: "https://plus.unsplash.com/premium_photo-1661500930207-e1ff516e54e7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Leisure Travel",
@@ -42,13 +42,13 @@ export const navItems = [
   {
     name: <Logo />,
     path: "/",
-    backgroundImage: "https://rasktravel.com/assets/header_home.jpg",
+    backgroundImage: "https://images.unsplash.com/photo-1623725206109-3ef2c2eec00e?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Travel Trends",
     path: "/travel-trends",
     backgroundImage:
-      "https://plus.unsplash.com/premium_photo-1664304565520-b939e5d65ef7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1516050327434-9d06ea9bfae8?q=80&w=2101&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Contact",
