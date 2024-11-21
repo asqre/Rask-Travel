@@ -27,33 +27,39 @@ import BalletOf from "../assets/images/ourwork/Ballet of.png";
 import Penguin from "../assets/images/ourwork/Penguin Parade.png";
 import blackSun from "../assets/images/ourwork/Black Sun.png";
 import biomul from "../assets/images/ourwork/Bioluminescent.png";
+import contact from "../assets/backgroundImages/contact.jpg";
+import leisure from "../assets/backgroundImages/leisure.jpg";
+import home from "../assets/backgroundImages/home.avif";
+import travelTrends from "../assets/backgroundImages/travelTrends.jpg";
+import starling from "../assets/images/ourwork/startling.jpeg";
+import international from "../assets/images/ourwork/internationalDark.jpeg";
 
 export const navItems = [
   {
     name: "About",
     path: "/about",
-    backgroundImage: "https://plus.unsplash.com/premium_photo-1661500930207-e1ff516e54e7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    backgroundImage:
+      "https://plus.unsplash.com/premium_photo-1661500930207-e1ff516e54e7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "Leisure Travel",
     path: "/leisure",
-    backgroundImage: "https://rasktravel.com/assets/header_leisure.jpg",
+    backgroundImage: leisure,
   },
   {
     name: <Logo />,
     path: "/",
-    backgroundImage: "https://images.unsplash.com/photo-1623725206109-3ef2c2eec00e?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    backgroundImage: home,
   },
   {
     name: "Travel Trends",
     path: "/travel-trends",
-    backgroundImage:
-      "https://images.unsplash.com/photo-1516050327434-9d06ea9bfae8?q=80&w=2101&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    backgroundImage: travelTrends,
   },
   {
     name: "Contact",
     path: "/contact",
-    backgroundImage: "https://rasktravel.com/assets/header_contact.jpg",
+    backgroundImage: contact,
   },
 ];
 
@@ -459,11 +465,11 @@ export const caseStudies = [
         imgName: "Bioluminescent plankton Vero Beach, Florida",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: international,
         imgName: "International Dark Sky Park Arches National Park, Utah",
       },
       {
-        img: "https://rasktravel.com/data/assets/603fafec10adc5d8206e54400014bbc0.jpg",
+        img: starling,
         imgName: "Starling murmurations Somerset, U.K.",
       },
     ],
