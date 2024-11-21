@@ -29,7 +29,7 @@ const Contact = () => {
             <h6>Al Kabeer</h6>
             <h6>Fahidi Street</h6>
             <h6>Dubai</h6>
-            <h6>United Arab Emirate</h6>
+            <h6>United Arab Emirates</h6>
             <a href="mailto:mail@iskytravels.com">
               <h6 className="font-bold underline">mail@iskytravels.com</h6>
             </a>
