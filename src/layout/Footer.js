@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ImLinkedin } from "react-icons/im";
-import { FaSquareInstagram, FaSquareWhatsapp, FaTelegram } from "react-icons/fa6";
+import {
+  FaSquareInstagram,
+  FaSquareWhatsapp,
+  FaTelegram,
+} from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -77,7 +81,7 @@ const Footer = () => {
                 <ImLinkedin size={18} />
               </a>
               <a
-                href="https://www.linkedin.com/company/infinite-sky-travels-llc/"
+                href="https://wa.me/971525601314"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -4,6 +4,7 @@ import { RxCross1 } from "react-icons/rx";
 import Logo from "../components/Logo";
 import { Link, useLocation } from "react-router-dom";
 import { navItems } from "../data";
+import leisureUnvieled from "../assets/backgroundImages/leisure-unveiled.jpg";
 
 const Navbar = () => {
   const location = useLocation();
@@ -31,7 +32,7 @@ const Navbar = () => {
     ? {
         backgroundImage:
           location.pathname === "/leisure-unveiled"
-            ? `url("https://rasktravel.com/assets/header_what_we_love.jpg")`
+            ? `url(${leisureUnvieled})`
             : `url(${selectedNavItem.backgroundImage})`,
       }
     : {};

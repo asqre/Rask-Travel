@@ -29,6 +29,7 @@ import blackSun from "../assets/images/ourwork/Black Sun.png";
 import biomul from "../assets/images/ourwork/Bioluminescent.png";
 import contact from "../assets/backgroundImages/contact.jpg";
 import leisure from "../assets/backgroundImages/leisure.jpg";
+import about from "../assets/backgroundImages/about.jpg";
 import home from "../assets/backgroundImages/home.avif";
 import travelTrends from "../assets/backgroundImages/travelTrends.jpg";
 import starling from "../assets/images/ourwork/startling.jpeg";
@@ -38,8 +39,7 @@ export const navItems = [
   {
     name: "About",
     path: "/about",
-    backgroundImage:
-      "https://plus.unsplash.com/premium_photo-1661500930207-e1ff516e54e7?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    backgroundImage: about,
   },
   {
     name: "Leisure Travel",
