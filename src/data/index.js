@@ -8,6 +8,7 @@ import fukuoka from "../assets/images/ourwork/Fukuoka.jpg";
 import krabi from "../assets/images/ourwork/KRABI.png";
 import lebernardi from "../assets/images/ourwork/Lebernardin.png";
 import neoliss from "../assets/images/ourwork/neoliss.jpg";
+import abudhabi from "../assets/images/ourwork/abudhabi.avif";
 import Robuchon from "../assets/images/ourwork/Robuchon.png";
 import aimaha from "../assets/images/loveData/ai-maha.jpg";
 import aiNaseem from "../assets/images/loveData/Al Naseem.jpg";
@@ -360,7 +361,7 @@ export const caseStudies = [
         imgName: "Fukuoka, Japan",
       },
       {
-        img: neoliss,
+        img: abudhabi,
         imgName: "Abu Dhabi, UAE",
       },
       {
