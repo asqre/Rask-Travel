@@ -23,7 +23,7 @@ const Contact = () => {
             // href="https://www.google.com/maps/place/9+Appold+St,+London+EC2A+2AP,+UK/"
             target="_blank"
             rel="noreferrer"
-            className="px-[80px] py-[50px] flex flex-col gap-2 text-center"
+            className="px-[80px] py-[50px] flex flex-col gap-2 text-center bg-[#FFFDD0]"
           >
             <h1>Al Suq</h1>
             <h6>Al Kabeer</h6>

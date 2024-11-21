@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="flex flex-row justify-between">
           <div className="footer-left-column">
             <h3>
-              <Link to="/love">Leisure Unveiled</Link>
+              <Link to="/leisure-unveiled">Leisure Unveiled</Link>
             </h3>
             <h3>
               <Link to="/terms">Terms &amp; Conditions</Link>

@@ -100,7 +100,7 @@ const Home = () => {
 
           <div className="w-full flex justify-end cursor-pointer mt-10 sm:mt-6">
             <Link
-              to="/love"
+              to="/leisure-unveiled"
               className="flex flex-row items-center justify-center gap-2"
             >
               <h3 className="font-semibold focus:underline">Leisure Unveiled</h3>

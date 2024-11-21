@@ -53,7 +53,7 @@ const About = () => {
               We engage in the world's top luxury travel trade shows, connect
               with prominent industry experts, and design outstanding
               itineraries thanks to our extensive network of over{" "}
-              <strong>2.6 million hotels and 200 airlines worldwide</strong>,
+              <strong>2.6 Million Hotels and 200 Airlines Worldwide</strong>,
               setting us apart for you and your loved ones!
             </h3>
           </div>

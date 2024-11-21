@@ -30,7 +30,7 @@ const Navbar = () => {
   const navContainerStyle = hasBackgroundImage
     ? {
         backgroundImage:
-          location.pathname === "/love"
+          location.pathname === "/leisure-unveiled"
             ? `url("https://rasktravel.com/assets/header_what_we_love.jpg")`
             : `url(${selectedNavItem.backgroundImage})`,
       }
